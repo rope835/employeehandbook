@@ -1,0 +1,94 @@
+div {
+    margin: 0px;
+}
+
+div.a {
+    text-indent: 25px;
+    line-height: 1.6;
+}
+
+div.b {
+    line-height: normal;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+        
+div.q {
+    font-family: Arial, Helvetica, serif;
+    font-size: 16px;
+    margin-left: 6%;
+    line-height: 24px;
+}
+
+c {
+    color: crimson;
+    font-size: 16px;
+    font-family: Arial, Helvetica, serif;
+    font-weight: bold;
+}
+
+d {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+e {
+    color: rgb(20, 171, 3);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial;
+}
+
+f {
+    color: lightblue;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    font-family: Arial;
+    opacity: 0;
+}
+
+ul {
+    margin-left: 0;
+    list-style-type: square;
+    line-height: 2.1em;
+}
+
+ul.a {
+    list-style-type: square;
+    line-height: 1.8em;
+}
+
+ol.a {
+    list-style-type: 1;
+    line-height: 1.8em;
+}
+
+.print_name, .signature {
+    float: left;
+    margin: 0px 10px;
+    border-top: 1px solid #000;
+    width: 250px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.date {
+    float: left;
+    margin: 0px 10px;
+    border-top: 1px solid #000;
+    width: 150px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.disclaim {
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    font-family: helvitica;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
