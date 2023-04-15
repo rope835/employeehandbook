@@ -1,24 +1,509 @@
+</html>
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Employee Handbook</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/overall.css">
-    <link rel="stylesheet" href="styles/general_contents.css">
-    <link rel="stylesheet" href="styles/containers.css">
-    <link rel="stylesheet" href="styles/buttons.css">
-    <link rel="stylesheet" href="styles/transformations.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+
+        html,
+        body {
+            margin-right: 0px;
+            padding: 15px 15px 15px 15px;
+        }
+
+        p {
+            font-family: Arial, Helvetica, serif;
+            font-size: 24px;
+            color: #404040;
+            letter-spacing: 0.1em;
+            padding-left: 10px;
+            margin-top: 0px;
+            margin-right: 40%;
+            text-align: right;
+        }
+
+        div.q {
+            font-family: Arial, Helvetica, serif;
+            font-size: 16px;
+            margin-left: 6%;
+            line-height: 24px;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, serif;
+            font-size: 28px;
+            font-variant: none;
+            color: crimson;
+            letter-spacing: 0.1em;
+            padding-left: 50px;
+            margin-top: 0px;
+            margin-left: 65%;
+            border-bottom: none;
+            background-color: white;
+            text-align: left;
+        }
+
+        img {
+            object-fit: fill;
+            padding-top: 0px;
+            max-width: 100%;
+            height: 900px;
+            padding-right: 0px;
+
+        }
+
+        div.a {
+            text-indent: 25px;
+            line-height: 1.6;
+        }
+
+        div.b {
+            line-height: normal;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        c {
+            color: crimson;
+            font-size: 16px;
+            font-family: Arial, Helvetica, serif;
+            font-weight: bold;
+        }
+
+        d {
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            font-weight: normal;
+        }
+
+        e {
+            color: rgb(20, 171, 3);
+            font-size: 16px;
+            font-weight: 700;
+            font-family: Arial;
+        }
+
+        f {
+            color: lightblue;
+            font-size: 16px;
+            letter-spacing: 0.1em;
+            font-family: Arial;
+            opacity: 0;
+        }
+
+        h4 {
+            color: black;
+            font-size: 16px;
+            font-family: Arial, Helvetica, serif;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        h5 {
+            color: rgb(0, 0, 204);
+            font-size: 21px;
+            font-family: Calibri;
+            font-variant: none;
+            font-weight: normal;
+            text-indent: 6%;
+            padding-bottom: 0px;
+            margin-top: 25px;
+            margin-bottom: 5px;
+            border-bottom: none;
+            text-align: left;
+        }
+
+        h6 {
+            color: rgb(250, 126, 72);
+            font-size: 19px;
+            font-family: Calibri;
+            font-variant: none;
+            font-weight: normal;
+            text-indent: 6%;
+            padding-bottom: 0px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-bottom: none;
+            text-align: left;
+        }
+
+        div {
+            margin: 0px;
+        }
+
+        ul.a {
+            list-style-type: square;
+            line-height: 1.8em;
+        }
+
+        ol.a {
+            list-style-type: 1;
+            line-height: 1.8em;
+        }
+
+        ul in:before {
+            content: "‒ \0020";
+            line-height: 1.8em;
+            margin-left: 10px;
+        }
+
+        ul {
+            margin-left: 0;
+            list-style-type: square;
+            line-height: 2.1em;
+        }
+        
+        a:link { 
+            text-decoration-color: none;
+            /*text-decoration: none;*/
+            
+        }
+
+        a:visited { text-decoration-color: none;
+            /*text-decoration: none;*/
+            
+        }
+        
+        a:hover { text-decoration-color: crimson; }
+        
+        
+        #signature-container {
+            background: url("https://drive.google.com/uc?export=view&id=1VwtG7E-MKK_JsfoewdKg4xSpNILrEAa7") no-repeat;
+            height: 100px;
+            margin-left: 5%;
+            padding-left: 30px;
+            background-color: transparent;
+            margin-bottom: 30px;
+        }
+
+        .grid-container::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+
+        .grid-container {
+            display: grid;
+            justify-items: left;
+            grid-template-columns: 60% 35%;
+            grid-auto-rows: auto;
+            margin-left: 20px;
+            grid-column-gap: 50px;
+            grid-row-gap: 2px;
+            height: 900px;
+            background-color: white;
+            padding: 0px;
+            border: none;
+            overflow: auto;
+        }
+
+        .grid-container>div {
+            background-color: white;
+            border: none;
+            text-align: left;
+            font-size: 15px;
+            width: auto;
+        }
+
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 1;
+            grid-row-end: span 30;
+            justify-self: left;
+            position: relative;
+        }
+
+        .item2 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: span 2;
+        }
+
+        .item3 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item4 {
+            /* #2 */
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item5 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item6 {
+            /* #4 */
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 4;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item7 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 5;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item8 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 6;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item9 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 7;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item10 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 8;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item11 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 9;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item12 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 10;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item13 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 11;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item14 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 12;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item15 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 13;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .item16 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+            grid-row-start: 14;
+            grid-row-end: span 1;
+            justify-self: left;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            
+        }
+
+        .dropbtn {
+            background-color: rgb(237, 250, 255);
+            font-size: 16px;
+            border: 1px solid black;
+            cursor: pointer;
+            text-align: left;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: flex;
+            background-color: #f1f1f1;
+            min-width: 100%;
+            margin-left: 20px;
+            margin-right: 0px;
+            padding-right: 0px;
+            padding-left: 10px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            text-indent: 5px;
+            line-height: 1.6;
+            font-size: 18px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ffff00;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: rgb(214, 250, 180);
+        }
+
+        .fade-in-image {
+            animation: fadeIn 0.7s;
+            -webkit-animation: fadeIn 0.7s;
+            -moz-animation: fadeIn 0.7s;
+            -o-animation: fadeIn 0.7s;
+            -ms-animation: fadeIn 0.7s;
+        }
+
+        .print_name,
+        .signature {
+            float: left;
+            margin: 0px 10px;
+            border-top: 1px solid #000;
+            width: 250px;
+            text-align: left;
+            line-height: 25px;
+        }
+
+        .date {
+            float: left;
+            margin: 0px 10px;
+            border-top: 1px solid #000;
+            width: 150px;
+            text-align: left;
+            line-height: 25px;
+        }
+
+        .disclaim {
+            text-align: center;
+            font-style: italic;
+            font-size: 16px;
+            font-family: helvitica;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        #transform:hover h4 {
+            color: white;
+            font-variant: small-caps;
+            min-width: 100%;
+            letter-spacing: 0.05em;
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-moz-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-o-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-ms-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        #grad1 {
+            height: 50px;
+            background-image: linear-gradient(to left, rgba(153, 202, 255, 1), rgba(153, 202, 255, 0));
+            font-family: Arial;
+            font-size: 26px;
+            font-variant: none;
+            font-weight: bold;
+            text-indent: 5%;
+            color: rgb(0, 0, 204);
+            padding: 10px;
+            border-bottom: none;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-<h1>Employee Handbook</h1>
+    <h1>Employee Handbook</h1>
     <h2>Sections &
         <p>Subsections</p>
     </h2>
     <div class="grid-container">
-        <div class="item1"><img src="img/top_page.png"></div>
+        <div class="item1"><img src="https://drive.google.com/uc?export=view&id=1AgcwbguPfK6NkGdCmUQ7Ucn9qN3htv5h"></div>
         <div class="item3">
             <div id="transform">
                 <div class="dropdown">
@@ -1002,5 +1487,24 @@
 
 
         <div class="disclaim">NOTE: This page will be signed by the employee and placed in the employee’s personnel file. A copy may be provided to the employee if requested.</div>
+
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.maxHeight) {
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
 </body>
+
 </html>
