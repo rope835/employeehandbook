@@ -96,6 +96,25 @@
             opacity: 0;
         }
 
+        .footer {
+            position: static;
+            margin-left: 0px;
+            margin-right: 0px;
+            bottom: 0px;
+            height: 70px;
+            width: 100%;
+            color: white;
+            background-color: black;
+        }
+
+        .vertical-center {
+            margin: 0;
+            position: relative;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
         h4 {
             color: black;
             font-size: 16px;
@@ -128,9 +147,18 @@
             text-align: left;
         }
 
-        ul.a {
-            list-style-type: square;
-            line-height: 1.8em;
+        ul {
+            margin-left: 0;
+            list-style: none;
+            list-style-position: inside;
+            line-height: 2.1em;
+        }
+
+        li::before {
+            content: "■";
+            padding-right: 8px;
+            margin-left: -20px;
+            color: blue;
         }
 
         ol.a {
@@ -141,15 +169,12 @@
         ul in:before {
             content: "‒ \0020";
             line-height: 1.8em;
+            font-weight: bold;
             margin-left: 10px;
+            padding-right: 5px;
+            color: red;
         }
 
-        ul {
-            margin-left: 0;
-            list-style-type: square;
-            line-height: 2.1em;
-        }
-        
         a {
             text-decoration-color: inherit;
         }
@@ -1531,8 +1556,10 @@
             <div class="signature">Signature</div><br><br><br><br> If I have any questions about the content or interpretation of this handbook, I will contact the People Operations Department.
         </div><br><br>
 
+        <div class="footer"><div class="vertical-center">
         <div class="disclaim">NOTE: This page will be signed by the employee and placed in the employee’s personnel file. A copy may be provided to the employee if requested.</div>
 
+         </div></div>
         <script>
             var coll = document.getElementsByClassName("collapsible");
             var i;
