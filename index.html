@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>WHC Employee Handbook</title>
+    <title>WHoC Employee Handbook</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
@@ -36,8 +36,9 @@
         }
 
         html, body {
-            margin-right: 0px;
-            padding: 15px 15px 15px 15px;
+            margin-left: 10px;
+            margin-right: 20px;
+
         }
 
         p {
@@ -101,6 +102,13 @@
             font-weight: bold;
         }
 
+        d2 {
+            color: rgb(112, 48, 160);
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
         e { /*check-mark only*/
             color: rgb(20, 171, 3);
             font-size: 16px;
@@ -117,14 +125,14 @@
         }
 
         .footer {
-            position: static;
-            margin-left: 0px;
-            margin-right: 0px;
+            position: relative;
+            margin-left:auto;
+            margin-right: auto;
             bottom: 0px;
-            height: 70px;
-            width: 100%;
+            height: 50px;
+            width: 60%;
             color: white;
-            background-color: black;
+            background-color: rgb(114, 114, 114);
         }
 
         .vertical-center {
@@ -187,13 +195,22 @@
             line-height: 1.8em;
         }
 
-        ul in:before {
-            content: "‒ \0020";
+        ul in::before {
+            content: "○ \0020";
             line-height: 1.8em;
-            font-weight: bold;
+            font-weight: bolder;
             margin-left: 10px;
             padding-right: 5px;
             color: red;
+        }
+
+        ul ul {
+            content: "○ \0020";
+            margin-left: 5px;
+            line-height: 1.8em;
+
+            padding-right: 5px;
+
         }
 
         a {
@@ -465,6 +482,7 @@
             font-family: helvitica;
             margin-left: 10%;
             margin-right: 10%;
+            line-height: 1.3rem;
         }
 
         #transform:hover h4 {
@@ -576,7 +594,6 @@
         opacity: 1;
         visibility: visible;
         }
-
     </style>
 </head>
 <body>
@@ -586,7 +603,7 @@
             <h1>Employee Handbook <span style="color:limegreen">&#10145;  &#10145;  &#10145;</span></h1>
         </div>
         <div>
-            <a target="_blank" href="https://drive.google.com/file/d/1ORM416fYY6pbPuexD8_2xz0Kq6bm5cej/view?usp=drive_link
+            <a target="_blank" href="https://drive.google.com/thumbnail?id=1HVY2N2bIyr3C_OaCezK7G2khb0RVmiZZ&sz=s4000
     "><div id="download"></div></a>
         </div>
     </div>
@@ -619,9 +636,22 @@
                             <d>d. </d><a href="#2-Dive">Diversity, Equity & Inclusion</a><br>
                             <d>e. </d><a href="#2-Gend">Gender Affirming Acceptable Terms</a><br>
                             <d>f. </d><a href="#2-Comm">Commitment to Transgender Employees</a><br>
+                            <d2>>> </d2><a href="#2-Name">Name and Pronouns</a><br>
+                            <d2>>> </d2><a href="#2-Rest">Restroom Accessibility</a><br>
+                            <d2>>> </d2><a href="#2-Priv">Privacy</a><br>
                             <d>g. </d><a href="#2-Ethi">Ethics Code</a><br>
-                            <d>h. </d><a href="#2-Back">Background Checks</a><br>
-                            <d>i. </d><a href="#2-Poli">Policy Against Workplace Harassment</a><br>
+                            <d>h. </d><a href="#2-Gift">Gift Giving</a><br>
+                            <d>i. </d><a href="#2-Pers">Personal Loans & Solicitation</a><br>
+                            <d>j. </d><a href="#2-Back">Background Checks</a><br>
+                            <d>k. </d><a href="#2-Pre-">Pre-Employment Drug Screening</a><br>
+                            <d>l. </d><a href="#2-Poli">Policy Against Workplace Harassment</a><br>
+                            <d2>>> </d2><a href="#2-Sexu">Sexual Harassment</a><br>
+                            <d2>>> </d2><a href="#2-Repo">Reporting Discrimination and Harassment</a><br>
+                            <d2>>> </d2><a href="#2-Inve">Investigation Procedure</a><br>
+                            <d2>>> </d2><a href="#2-Witn">Witnessing Sexual Harassment</a><br>
+                            <d2>>> </d2><a href="#2-Stat">Statement of Confidentiality</a><br>
+                            <d2>>> </d2><a href="#2-Leav">Leave Requests</a><br>
+                            <d2>>> </d2><a href="#2-Reso">Resolution Outside Company</a><br>
                         </div>
                     </div>
                 </div>
@@ -668,6 +698,8 @@
                         <div class="fade-in-image">
                             <d>a. </d><a href="#5-Dire">Direct Deposit</a><br>
                             <d>b. </d><a href="#5-Exem">Exemption Status</a><br>
+                            <d2>>> </d2><a href="#5-Exempt">Exempt Personnel</a><br>
+                            <d2>>> </d2><a href="#5-None">Nonexempt Personnel</a><br>
                             <d>c. </d><a href="#5-Meal">Meal and Rest Periods Policy</a><br>
                             <d>d. </d><a href="#5-PayP">Pay Period</a><br>
                             <d>e. </d><a href="#5-PPra">Pay Practices</a><br>
@@ -721,7 +753,14 @@
                             <d>l. </d><a href="#7-Volu">Voluntary Emergency Workers</a><br>
                             <d>m. </d><a href="#7-FMLA">Family Medical Leave Act (FMLA)</a><br>
                             <d>n. </d><a href="#7-Pers">Personal Leave of Absence</a><br>
-                            <d>o. </d><a href="#7-Work">Workplace Accommodations</a><br>
+                            <d2>>> </d2><a href="#7-Exte">Extension of Leave</a><br>
+                            <d2>>> </d2><a href="#7-Retu">Return to Work</a><br>
+                            <d2>>> </d2><a href="#7-Fail">Failure to Return from Leave</a><br>
+                            <d>o. </d><a href="#7-Alt">Alternative Employment on Leave</a><br>
+                            <d>p. </d><a href="#7-Work">Workplace Accommodations</a><br>
+                            <d2>>> </d2><a href="#7-Acco">Accommodations for Nursing Mothers</a><br>
+                            <d2>>> </d2><a href="#7-Reli">Religious Accommodation</a><br>
+                            <d>q. </d><a href="#7-HIPA">HIPAA Medical Privacy Policy</a><br>
                         </div>
                     </div>
                 </div>
@@ -734,10 +773,15 @@
                     <div class="dropdown-content">
                         <div class="fade-in-image">
                             <d>a. </d><a href="#8-Atte">Attendance Policy</a><br>
-                            <d>b. </d><a href="#8-Depa">Departmental Notification Procedure</a><br>
-                            <d>c. </d><a href="#8-DepP">Departmental Policy Approval Process</a><br>
-                            <d>d. </d><a href="#8-Disc">Disciplinary Action</a><br>
-                            <d>e. </d><a href="#8-Holi">Holidays</a><br>
+                            <d>b. </d><a href="#8-Abse">Absences</a><br>
+                            <d>c. </d><a href="#8-NewH">Attendance During New Hire Orientation Period</a><br>
+                            <d>d. </d><a href="#8-Occu">Occurrences</a><br>
+                            <d>e. </d><a href="#8-Tard">Tardiness and Early Departures</a><br>
+                            <d>f. </d><a href="#8-Time">Time Clocks and Failure to Clock in/out</a><br>
+                            <d>g. </d><a href="#8-Depa">Departmental Notification Procedure</a><br>
+                            <d>h. </d><a href="#8-DepP">Departmental Policy Approval Process</a><br>
+                            <d>i. </d><a href="#8-Disc">Disciplinary Action</a><br>
+                            <d>j. </d><a href="#8-Holi">Holidays</a><br>
                         </div>
                     </div>
                 </div>
@@ -766,6 +810,11 @@
                             <d>a. </d><a href="#10-Acce">Access to Personnel and Medical Records Files</a><br>
                             <d>b. </d><a href="#10-Bull">Bulletin Boards</a><br>
                             <d>c. </d><a href="#10-Incl">Inclement Weather/Emergencies</a><br>
+                            <d2>>> </d2><a href="#10-Comp">Company Closure</a><br>
+                            <d2>>> </d2><a href="#10-Noti">Notification</a><br>
+                            <d2>>> </d2><a href="#10-Part">Partial-Day Closure</a><br>
+                            <d2>>> </d2><a href="#10-Prio">Notification of Closure Prior to Reporting to Work</a><br>
+                            <d2>>> </d2><a href="#10-Exte">Extending Leave</a><br>
                             <d>d. </d><a href="#10-Comp">Computer Security</a><br>
                             <d>e. </d><a href="#10-Conf">Confidentiality and Nondisclosure of Trade Secrets</a><br>
                             <d>f. </d><a href="#10-Empl">Employer Sponsored Social Events</a><br>
@@ -783,6 +832,8 @@
                             <d>r. </d><a href="#10-Tele">Telecommuting</a><br>
                             <d>s. </d><a href="#10-Thir">Third Party Disclosures</a><br>
                             <d>t. </d><a href="#10-UseO">Use of Company Technology</a><br>
+                            <d2>>> </d2><a href="#10-Gene">General Provisions</a><br>
+                            <d2>>> </d2><a href="#10-Viol">Violations/a><br>
                             <d>u. </d><a href="#10-Work">Workplace Privacy and Right to Inspect</a><br>
                         </div>
                     </div>
@@ -796,6 +847,11 @@
                     <div class="dropdown-content">
                         <div class="fade-in-image">
                             <d>a. </d><a href="#11-Soci">Social Media Policy</a><br>
+                            <d2>>> </d2><a href="#11-Guid">Guidelines</a><br>
+                            <d2>>> </d2><a href="#11-Know">Know and Follow the Rules</a><br>                              
+                            <d2>>> </d2><a href="#11-BeRe">Be Respectful</a><br>
+                            <d2>>> </d2><a href="#11-Main">Maintain Accuracy and Confidentiality</a><br>
+                            <d2>>> </d2><a href="#11-Usin">Using Social Media at Work</a><br>
                             <d>b. </d><a href="#11-Medi">Media Contacts</a><br>
                             <d>c. </d><a href="#11-Reta">Retaliation and Employee Rights</a><br>
                         </div>
@@ -810,6 +866,7 @@
                     <div class="dropdown-content">
                         <div class="fade-in-image">
                             <d>a. </d><a href="#12-Drug">Drug and Alcohol Policy</a><br>
+                            <d2>>> </d2><a href="#12-Proh">Prohibited Conduct</a><br>
                             <d>b. </d><a href="#12-DruF">Drug-Free Workplace</a><br>
                             <d>c. </d><a href="#12-Rand">Random Drug Testing</a><br>
                             <d>d. </d><a href="#12-Empl">Employer-Sponsored Events</a><br>
@@ -833,6 +890,7 @@
                             <d>c. </d><a href="#13-JobA">Job Abandonment</a><br>
                             <d>d. </d><a href="#13-Post">Post-Employment References</a><br>
                             <d>e. </d><a href="#13-Resi">Resignation Policy</a><br>
+                            <d2>>> </d2><a href="#13-Noti">Notice of Resignation</a><br>
                             <d>f. </d><a href="#13-Retu">Return of Property</a><br>
                         </div>
                     </div>
@@ -857,7 +915,7 @@
 
     <div id="grad1"><a id="Intro">1. Introduction</a></div>
     <h5><a id="1-Wel">Welcome</a></h5>
-    <div class="q">We hope that your employment with Baal Perazim Wellness & Health, PC (INC) (d/b/a Wellness Home and Wellness Home Behavioral Health) (hereafter referred to as the “Practice”) will be rewarding and challenging.<br><br> We take pride in our employees as well as in the products and services we provide. You have joined a diverse, inclusive organization dedicated to providing health and wellness services to our patients. We are committed to delivering health and wellness services to everyone regardless of socio-economic, geographic, cultural, or demographic factors.<br><br> The Practice complies with all local, state and federal employment laws. The employment policies and/or benefits summaries in this handbook are written for all employees.<br><br> This handbook supersedes any previously issued handbooks or policy statements dealing with the subjects discussed herein. The Practice reserves the right to interpret, modify, or discontinue policies contained in this handbook, at any time without prior notice. Neither this handbook nor any other communication by a management representative, whether oral or written, is intended in any way to create a contract of employment. While no employee handbook can address every situation in the workplace, this handbook outlines the Practice’s employment policies and procedures and sets expectations regarding employee behaviors and actions in the workplace.<br><br> Please take the time to read this handbook carefully. It is each employee’s responsibility to review and comply with all Practice policies and procedures. As an employee of the Practice, every employee must sign the acknowledgment at the end to confirm that they have read, understand, and agree to the contents of this handbook, which sets out the basic rules and guidelines concerning their employment.<br><br> If an employee has questions about their employment or any provisions in this handbook, please contact the People Operations Department.<br><br> We wish all employees success in their employment with the Practice!</div><br>
+    <div class="q">We hope that your employment with Baal Perazim Wellness & Health, PC (INC) (d/b/a Wellness Homes of Chicago and Wellness Home Behavioral Health) (hereafter referred to as the “Practice”) will be rewarding and challenging.<br><br> We take pride in our employees as well as in the products and services we provide. You have joined a diverse, inclusive organization dedicated to providing health and wellness services to our patients. We are committed to delivering health and wellness services to everyone regardless of socio-economic, geographic, cultural, or demographic factors.<br><br> The Practice complies with all local, state and federal employment laws. The employment policies and/or benefits summaries in this handbook are written for all employees.<br><br> This handbook supersedes any previously issued handbooks or policy statements dealing with the subjects discussed herein. The Practice reserves the right to interpret, modify, or discontinue policies contained in this handbook, at any time without prior notice. Neither this handbook nor any other communication by a management representative, whether oral or written, is intended in any way to create a contract of employment. While no employee handbook can address every situation in the workplace, this handbook outlines the Practice’s employment policies and procedures and sets expectations regarding employee behaviors and actions in the workplace.<br><br><u>Please take the time to read this handbook carefully</u>.<u> It is each employee’s responsibility to review and comply with all Practice policies and procedures</u>. As an employee of the Practice, every employee must sign the acknowledgment at the end to confirm that they have read, understand, and agree to the contents of this handbook, which sets out the basic rules and guidelines concerning their employment.<br><br> If an employee has questions about their employment or any provisions in this handbook, please contact the People Operations Department.<br><br> We wish all employees success in their employment with the Practice!</div><br>
 
     <div id="signature-container"></div>
 
@@ -901,25 +959,45 @@
     </div>
 
     <h5><a id="2-Comm">Commitment to Transgender Employees</a></h5>
-    <h6>Name and Pronouns</h6>
+    <h6><a id="2-Name">Name and Pronouns</a></h6>
     <div class="q">An employee has the right to be addressed by the name and pronoun that correspond to the employee’s gender identity, upon request. A court-ordered name or gender change is not required. The intentional or persistent refusal to respect an employee’s gender identity (for example, intentionally referring to the employee by a name or pronoun that does not correspond to the employee’s gender identity) can constitute harassment and is a violation of this policy. In cases where coworkers are unsure of a pronoun preference, the Practice advises employees to politely ask the coworker how they would like to be addressed.</div><br>
 
-    <h6>Restroom Accessibility</h6>
+    <h6><a id="2-Rest">Restroom Accessibility</a></h6>
     <div class="q">All of Practice’s restroom facilities that dwell within a Wellness home are gender neutral. In cases where the Practice shares restroom space with other organizations, efforts will be made to advocate making restrooms gender neutral and/or ensuring that employees have the right to use a restroom that corresponds to the employee’s gender identity, regardless of the employee’s sex assigned at birth.</div><br>
 
-    <h6>Privacy</h6>
+    <h6><a id="2-Priv">Privacy</a></h6>
     <div class="q">Transgender employees have the right to discuss their gender identity or expression openly, or to keep that information private. The transgender employee gets to decide when, with whom, and how much to share their private information. Information about an employee’s transgender status (such as the sex they were assigned at birth) can constitute confidential medical information under privacy laws like HIPAA. Executive Leadership, People Operations, Managers, Supervisors and/or coworkers shall not disclose information that may reveal an employee’s transgender status or gender non-conforming presentation to others. That type of personal or confidential information may only be shared with the transgender employee’s consent and with coworkers who truly need to know to do their jobs.<br><br> It is a violation of the Practice’s Diversity, Equity & Inclusion Policy to discriminate in any way (including, but not limited to, failure to hire, failure to promote, or unlawful termination) against an employee because of the employee’s actual or perceived gender identity. Additionally, it is unlawful and contrary to this policy to retaliate against any person objecting to, or supporting enforcement of legal protections against, gender identity discrimination in employment. Our Practice is committed to creating a safe work environment for transgender and gender non-conforming employees. Any incident of discrimination, harassment, or violence based on gender identity or expression will be given immediate and effective attention, including, but not limited to, investigating the incident, taking suitable corrective action, and providing employees and staff with appropriate resources.</div>
 
     <h5><a id="2-Ethi">Ethics Code</a></h5>
     <div class="q">The Practice will conduct business honestly and ethically wherever operations are maintained. We strive to improve the quality of our services, products, and operations and will maintain a reputation for honesty, fairness, respect, responsibility, integrity, trust, and sound business judgment. Our managers and employees are expected to adhere to high standards of business and personal integrity as a representation of our business practices, at all times consistent with their duty of loyalty to the Practice. Our reputation is a most valuable asset, and we must continually earn the trust, confidence and respect of our patients and the community.<br><br> We expect that officers, directors, and employees will not knowingly misrepresent the Practice and will not speak on behalf of the Practice unless specifically authorized. The confidentiality of trade secrets, proprietary information, and similar confidential commercially-sensitive information (i.e., financial or sales records/reports, marketing or business strategies/plans, product development, customer lists, patents, trademarks, etc.) about the Practice or operations, or that of our customers or partners, is to be treated with discretion and only disseminated on a need-to-know basis (see policies relating to privacy).<br><br> Violation of the Code of Ethics can result in discipline, up to and including termination of employment. The degree of discipline imposed may be influenced by the existence of voluntary disclosure of any ethical violation and whether or not the violator cooperated in any subsequent investigation.</div>
 
+    <h5><a id="2-Gift">Gift Giving</a></h5>
+    <div class="q">Our policy aims to maintain uniformity in exchanging, distributing, and receiving gifts from employees. The Practice follows strict guidelines in the matter of gift-giving and prohibits any favoritism and/or any benefit which may or could be perceived as a bribe or unethical. The Practice expects all employees to maintain the highest degree of ethical standards. Wellness Homes of Chicago strictly prohibits any solicitation of gifts, contributions or favors from employees, patients, organizations, and/or vendors from which they interact. Employees who receive or distribute gifts must ensure that it does not influence or be perceived as quid pro quo by external parties or staff. Employees must always strive to avoid any actual or perceived conflict of interest and avoid the appearance of impropriety. An employee must not accept any gifts, donations, or services from patients, clients, competitors, or existing/prospective vendors.<br><br>It is important to maintain a clear line between manager/employee relations. Soliciting contributions from employees for a gift for a manager or member of the leadership team may create an uncomfortable dynamic and there are legal pitfalls in doing so. Workplace gift giving should flow down the reporting line, not upwards. Employees may not solicit gifts or contributions for gifts for their direct manager or any member of the Executive Team. This rule protects employees from feeling pressure to contribute to a gift for managers or executive staff. However, managers may give presents to direct reports and employees may exchange gifts with their peers.<br><br>Exceptions to the gift giving policy are:<br>
+    <ul class="a">
+            <li>Employees may accept edible/entertainment/accommodation or other gifts of value if shared with all employees.</li>
+            <li>Employees may receive items of value that are displayed on premise (Ex: Flowers).</li>
+            <li>Employees may accept items from patients/clients with the approval of the Chief Wellness Officer or Chief Operating Officer.</li>
+            <li>Employees may accept gifts in return for serving the community.</li>
+            <li>Employees may accept gifts received as a team.</li>
+            </ul>This policy does not prohibit <b><u>voluntary</u></b> participation in birthday or annual holiday celebrations. Violation of this policy is prohibited and may result in disciplinary action up to and including an immediate suspension.</div>
+    
+    <h5><a id="2-Pers">Personal Loans & Solicitation</a></h5>
+    <div class="q">Employees are not permitted to borrow money from, lend money to, or solicit financial assistance from other employees, contractors, or vendors while at work or in connection with their employment. This policy applies to all forms of monetary requests, including cash, checks, electronic transfers, or other financial instruments.<br>
+            <ul class="a">
+            <li>Employees may not ask colleagues, contractors, or vendors for loans, advances, or financial assistance.</li>
+            <li>Employees may not offer loans to colleagues, contractors, or vendors in the workplace.</li>
+        </ul>This policy applies during work hours, on Practice premises, sponsored events, or in any work-related context and applies to all employees, contractors, and temporary staff of the Practice regardless of position or tenure.<br><br>Violations of this policy may result in disciplinary action, up to and including an unpaid suspension or discharge of employment.</div>
+    
     <h5><a id="2-Back">Background Checks</a></h5>
     <div class="q">Offers of employment for certain positions at the Practice may be contingent upon the results of a thorough background check. A background check is performed to protect the interests of the Practice and that of its employees and patients and to comply with certain requirements. Background checks will be conducted on licensed providers and employees as required. Background checks may include prior employment verification, professional reference checks, and education confirmation. New hires must complete a background check authorization form and return it to People Operations. People Operations will notify the Chief Wellness Officer of the background check results. In instances where negative information is obtained, the Chief Wellness Officer, Chief Operating Officer and Director, People Operations will assess the potential risks and liabilities related to the job's requirements and determine whether the individual may be hired. If a decision not to hire or promote a candidate is made based on the results of a background check, there are certain Fair Credit Reporting Act (FCRA) requirements that will be handled by People Operations in conjunction with the background screening service. The Practice reserves the right to modify this policy at any time without notice.</div>
+
+    <h5><a id="2-Pre-">Pre-Employment Drug Screening</a></h5>
+    <div class="q">Candidates who receive a written offer of employment will be required to undergo testing for commonly abused controlled substances in accordance with the Practice’s pre-employment policies and procedures. Upon receipt of an offer of employment, candidates must complete required drug testing within forty-eight (48) hours. All testing will be conducted by a licensed independent medical laboratory, which will follow testing standards in accordance with local, state and federal laws. Candidates who refuse to submit to a drug test or who fail to show up for a drug test within forty-eight (48) hours from receipt of a written offer of employment will no longer be considered for employment, and any offer of employment will be rescinded. The Practice will provide a copy of the pre-employment drug testing policy to all candidates who receive a written offer. Upon receipt of a written request by a candidate, People Operations will provide a copy of reported test results.</div>
 
     <h5><a id="2-Poli">Policy Against Workplace Harassment</a></h5>
     <div class="q">The Practice has a strict policy against all types of workplace harassment, including sexual harassment and other forms of workplace harassment based upon an individual’s actual or perceived age (40 and older), race, color, national origin, ancestry, religion, sex, pregnancy (including childbirth, lactation, and related medical conditions), marital status, order of protection status, citizenship status, employment status, arrest and conviction information, credit history, crime victim status, physical or mental disability, genetic information (including testing and characteristics), sexual orientation, veteran status, uniformed servicemember status, or any other status protected by federal, state, or local laws. All forms of harassment of, or by, employees, non-employees including contractors and consultants, vendors, visitors, customers, and clients are strictly prohibited and will not be tolerated. If after an investigation, an employee is found to be in violation of this policy the employee will be subject to disciplinary action up to and including termination of employment depending on the circumstances surrounding the incident.</div>
 
-    <h5>Sexual Harassment</h5>
+    <h5><a id="2-Sexu">Sexual Harassment</a></h5>
     <div class="q">“Sexual harassment” is defined as any (i) unwelcome sexual advances or unwelcome conduct of a sexual nature; (ii) requests for sexual favors or conduct of a sexual nature when (1) submission to such conduct is made either explicitly or implicitly a term or condition of an individual’s employment;, or (2) submission to or rejection of such conduct by an individual is used as the basis for any employment decision affecting the individual;, or (3) such conduct has the purpose or effect of substantially interfering with an individual’s work performance or creating an intimidating, hostile, or offensive working environment; or (iii) sexual misconduct, which means any behavior of a sexual nature which also involves coercion, abuse of authority, or misuse of an individual’s employment position. An individual’s work environment is not limited to the physical location where an individual is assigned to perform work duties.<br><br> Sexual harassment can occur in many ways. It may involve unwelcome romantic or sexual advances, requests for sexual favors, visual materials, social media posts, verbal comments, and/or physical contact of a sexual nature, regardless of gender or gender identity. Involved parties, either victim or harasser, could be a co-worker, subordinate, manager/supervisor, contractor, or even a customer.<br><br> Such conduct is a violation of this policy, even in instances where the offending employee believed they were acting jokingly. Such communications, comments, actions of a sexual nature, or unwelcome advances are prohibited at the Practice whether or not other employees were offended.<br><br> While it is not possible to identify every act that constitutes or may constitute sexual harassment, the following are some examples of sexual harassment:
         <ul class="a">
             <li>Unwelcome requests for sexual favors,</li>
@@ -942,26 +1020,26 @@
         </ul>
         Persons covered by this policy include full and part-time employees, interns, contractors, vendors, volunteers, or temporary workers hired by the Practice.</div>
 
-    <h5>Reporting Discrimination and Harassment</h5>
+    <h5><a id="2-Repo">Reporting Discrimination and Harassment</a></h5>
     <div class="q">If an employee believes that they have witnessed or have been subjected to any form of discrimination or harassment, immediately notify People Operations or any member of executive leadership.<br><br> The Practice prohibits retaliation against employees who, based on a reasonable belief, provide information about, complain, or assist in the investigation of any complaint of harassment or discrimination. We will promptly and thoroughly investigate any claim and take appropriate action where we find a claim has merit. To the extent possible, we will retain the confidentiality of those who report suspected or alleged violations of the harassment policy.
         <br><br> Discipline for violation of this policy may include, but is not limited to, reprimand, suspension, demotion, transfer, and discharge. If the Practice determines that harassment or discrimination occurred, corrective action will be taken to effectively end the harassment. As necessary, the Practice may monitor any incident of harassment or discrimination to assure the inappropriate behavior has stopped. In all cases, the Practice will follow up as necessary to ensure that no individual is retaliated against for making a complaint or cooperating with an investigation.
     </div>
 
-    <h5>Investigation Procedure</h5>
+    <h5><a id="2-Inve">Investigation Procedure</a></h5>
     <div class="q">If the Practice receives information that alleges or suggests that an employee has committed an act of sexual harassment or any other form of harassment, the matter shall be referred to People Operations for the purpose of investigating the information or allegation. The Practice shall conduct an immediate investigation of the information or allegation as soon as reasonably possible.<br><br> At the conclusion of the investigation, the investigator will report their findings to the designated official. If the investigator concludes that there is significant evidence that the employee has engaged in any form of harassment, as defined in this policy, then that employee shall be subject to disciplinary action up to and including termination. The employee may also be required to participate in counseling, training or other remedial measures.<br><br> The People Operations Officer, or other official designated by the Practice will provide written notice to the employee who filed the complaint and the accused employee informing them of the outcome of the investigation. The notification will not include the recommended discipline in cases where a violation of this policy was found.<br><br> Every employee shall have a duty to cooperate with any investigation initiated by the Practice. Failure to do so may result in disciplinary action. Additionally, every employee has the duty to be truthful and must disclose all information known to the employee when requested to do so by an appropriate person in the organization or the person designated by the organization to investigate an alleged incident of violence. Any employee who fails to be completely truthful or who withholds information shall be subject to disciplinary action up to and including termination.
     </div>
 
-    <h5>Witnessing Sexual Harassment</h5>
+    <h5><a id="2-Witn">Witnessing Sexual Harassment</a></h5>
     <div class="q">In addition to having a duty to cooperate with an investigation of sexual harassment, employees who have information about or who witness an act of sexual harassment (or any other form of harassment) against an employee, are <u>required</u> to report all information to People Operations.<br><br> The Practice will not retaliate against, terminate, or discipline any employee for reporting information about alleged incidents of sexual harassment (or any other form of harassment), as defined in this policy that may have been committed by any other employee, including a member of management or executive leadership. Any employee who believes they have been subjected to adverse action as a result of making a report pursuant to this policy should contact People Operations.</div>
 
-    <h5>Statement of Confidentiality</h5>
+    <h5><a id="2-Stat">Statement of Confidentiality</a></h5>
     <div class="q">The Practice recognizes and respects an employee’s right to privacy and the need for confidentiality and the freedom to make their own decisions. The Practice shall maintain the confidentiality of an employee’s disclosure regarding sexual harassment to the extent allowed by law, and unless to do so would result in physical harm to any person, and/or jeopardize safety within the workplace. When information must be disclosed to protect the safety of individuals within the workplace, the Practice shall limit what information is disclosed as necessary to protect the safety of the disclosing employee and others, and to comply with the law.<br><br> The Practice shall provide advance notice to the employee who disclosed information, to the extent possible, if the disclosure must be shared with other parties in order to maintain safety in the workplace or elsewhere. The Practice shall also provide the employee with the name and title of the person to whom the Practice intends to share the employee’s statements and shall explain why the information must be disclosed.</div>
 
-    <h5>Leave Requests</h5>
+    <h5><a id="2-Leav">Leave Requests</a></h5>
     <div class="q">The Practice recognizes that victims of sexual harassment may need time off to obtain or attempt to obtain a protection or restraining order or any other legal assistance to help ensure their health, and safety. The Practice will work in collaboration with the employee to provide reasonable and flexible leave options when an employee is a victim of sexual harassment.<br><br> The Practice will work with the employee to provide paid leave first before requiring an employee to utilize unpaid leave. An employee must provide reasonable advance notice to the employer of the need to take time off unless advance notice is not feasible. To request leave, an employee should contact People Operations. The Practice will maintain the confidentiality of a person who requests leave under this policy, to the extent allowed by law.<br><br> The Practice will also provide reasonable accommodations for a victim of sexual harassment who requests an accommodation for the safety of the victim or to maintain their work performance while at work. Reasonable accommodations may include the implementation of safety measures, including a transfer, reassignment, modified schedule, changed work telephone, changed workstation, installed lock, assistance in documenting the sexual harassment that occurs in the workplace, an implemented safety procedure, another adjustment to a job structure, workplace facility, or work requirement in response to the sexual harassment, or referral to a sexual harassment counseling service. The Practice will assist an employee to enforce his or her protection order, if applicable.
     </div>
 
-    <h5>Resolution Outside Company</h5>
+    <h5><a id="2-Reso">Resolution Outside Company</a></h5>
     <div class="q">The purpose of this policy is to establish prompt, thorough, and effective procedures for responding to every complaint and incident so that problems can be identified and remedied internally. However, employees have the right to contact the Illinois Department of Human Rights (IDHR) or the Equal Employment Opportunity Commission (EEOC) about filing a formal complaint. An IDHR complaint must be filed within 180 days of the alleged incident(s) unless it is a continuing offense. A complaint with the EEOC must be filed within three hundred (300) days. In addition, an appeal process is available through the Illinois Human Rights Commission (IHRC), after the IDHR has completed its investigation of the complaint.</div>
 
     <h5 style="color:red">Administrative Contacts for Complaints</h5>
@@ -1064,10 +1142,10 @@
     <h5><a id="5-Exem">Exemption Status</a></h5>
     <div class="q">The US. Department of Labor provides general information on the exemption from minimum wage and overtime pay provided by Section 13(a)(1) of the Fair Labor Standards Act (FLSA). The FLSA provides an exemption from both minimum wage and overtime pay for employees employed as a bona fide executive, administrative, professional and outside sales employees. Individuals who work for the Practice are classified as: Exempt, NonExempt or 1099 Contractor.</div>
 
-    <h5>Exempt Personnel</h5>
+    <h5><a id="5-Exempt">Exempt Personnel</a></h5>
     <div class="q">If classified as an exempt employee, an employee is not eligible for overtime pay as otherwise required by federal, state, or local laws. For questions regarding exempt status, an employee should contact Payroll or People Operations for clarification.</div>
 
-    <h5>Nonexempt Personnel</h5>
+    <h5><a id="5-None">Nonexempt Personnel</a></h5>
     <div class="q">A nonexempt employee is eligible for minimum wage and overtime pay in accordance with federal, state, and local laws. For questions regarding nonexempt status, an employee should contact Payroll or People Operations for clarification.</div>
 
     <h5><a id="5-Meal">Meal and Rest Periods Policy</a></h5>
@@ -1151,7 +1229,6 @@
                 <li>Christmas Day</li>
                 <li>New Year’s Eve</li>
         </ul>
-
         If one of the above holidays falls on Saturday, it is observed on the preceding Friday. If one falls on Sunday, it is observed on the following Monday.<br><br> Eligible employees receive a paid holiday only if the holiday falls on a day they are normally scheduled to work. Full-time and part-time employees are eligible for paid holidays immediately upon hire. Part-time employees are eligible for holiday pay in proportion to the number of hours they normally are scheduled to work.<br><br> Non-exempt employees must work their scheduled work day before and after the holiday period in order to be paid for the holiday unless they are absent with prior permission from their Supervisor or Manager.<br><br> Additionally, all full-time exempt and non-exempt employees will be awarded two (2) floating holidays annually on January 1st . These two floating holidays may be used for religious or cultural holidays, employee birthdays, or other state or federal holidays during which the Practice remains open. The request must be scheduled and approved in advance by the employee's immediate supervisor. Floating holidays may not be carried over to the next calendar year, nor may they be cashed out if not taken or paid upon termination of employment.<br><br> An employee may not take an <i><u>unscheduled</u></i> PTO or sick day the day before or the day after a paid holiday period. In order for an employee to be eligible for holiday pay, the employee is required to work the day before and the day after the specific holiday period if the employee is scheduled. In the absence of mitigating and verifiable circumstances (e.g., family emergency, hospitalization), an employee will not be paid for the holiday.</div>
 
     <h5><a id="7-Paid">Paid Time Off (PTO)</a></h5>
@@ -1192,7 +1269,7 @@
         <i>Note: Illinois state law does not create a right for unpaid leave that exceeds the unpaid leave allowed under the federal Family and Medical Leave Act (FMLA). Therefore, if an employee exhausts all of their FMLA leave during the applicable 12-month period, the Practice is not required to provide additional bereavement leave.</i></div>
 
     <h5><a id="7-Leav">Leave for Domestic, Sexual or Gender Violence Leave</a></h5>
-    <div class="q">In accordance with the Illinois Victims' Economic Security and Safety Act, employees who are the victims of domestic violence, sexual violence, gender violence or any other crime of violence or who have family or household members who are the victims of domestic violence, sexual violence, gender violence or any other crime of violence whose interests are not adverse to the employee as it relates to the domestic violence, sexual violence, gender violence or any other crime of violence, may be eligible for up to 12 weeks of unpaid leave within any 12- month period, and upon return will be restored to the same or an equivalent position.<br><br> Employees may elect to substitute any or all annual or vacation leave, personal leave and sick leave during the otherwise unpaid leave. This substitution of paid leave does not extend the total allowed leave period but runs concurrently with it. Leave under this policy also runs concurrently with Family and Medical Leave when the reason for the leave qualifies for Family and Medical Leave, such as for a serious health condition. In these situations, the leave does not extend any unpaid time available to the employee under Family and Medical Leave.<br><br>
+    <div class="q">In accordance with the Illinois Victims' Economic Security and Safety Act (VESSA), employees who are the victims of domestic violence, sexual violence, gender violence or any other crime of violence or who have family or household members who are the victims of domestic violence, sexual violence, gender violence or any other crime of violence whose interests are not adverse to the employee as it relates to the domestic violence, sexual violence, gender violence or any other crime of violence, may be eligible for up to 12 weeks of unpaid leave within any 12-month period, and upon return will be restored to the same or an equivalent position.<br><br>Employees may elect to substitute any or all annual or vacation leave, personal leave and sick leave during the otherwise unpaid leave. This substitution of paid leave does not extend the total allowed leave period but runs concurrently with it. Leave under this policy also runs concurrently with Family and Medical Leave when the reason for the leave qualifies for Family and Medical Leave, such as for a serious health condition. In these situations, the leave does not extend any unpaid time available to the employee under Family and Medical Leave.<br><br>
         <u>Reasons for Leave</u><br> Eligible employees may take leave under this policy so that they or a member of their family or household may take part in one or more of the following actions:
         <ul class="a">
             <li>seek medical attention for or recover from physical or psychological injuries caused by domestic violence, sexual violence, gender violence or any other crime of violence;</li>
@@ -1258,11 +1335,11 @@
 
     <h5><a id="7-Pers">Personal Leave of Absence</a></h5>
     <div class="q">The Practice recognizes that an employee may need time off from work due to special circumstances that other leave policies may not address. In such cases, an employee may request an unpaid personal leave of absence. All regular/full-time/part-time employees employed for at least one (1) year are eligible to apply for a 30-day unpaid personal leave of absence. Requests for an unpaid personal leave must be submitted to the Director, People Operations in writing at least twenty (20) business days in advance. In an emergency situation, written notice must be provided as soon as possible. The request should include the reason for the leave as well as the dates an employee expects to begin and end the leave.<br><br> Job performance, absenteeism, and department/business needs will be taken into consideration before a request is approved. Requests for unpaid personal leave may be denied or granted for any reason and are within the sole discretion of the Practice.<br><br> An employee will be required to use all available paid time off (PTO) prior to taking an unpaid personal leave of absence. Sick leave, PTO, seniority, or other benefits will not accrue during an unpaid personal leave of absence. Holidays that occur during an unpaid personal leave of absence will not be paid.<br><br> If an employee is granted a personal leave of absence, reinstatement to the employee’s current position or any position is not guaranteed.<br><br> The Practice’s employer-sponsored group health benefits will be continued at the same level and under the same conditions as prior to the leave, for up to thirty (30) days. An employee is responsible for payment of the employee portion of the insurance premium while on personal leave.<br><br> If an employee is on a personal leave of absence that exceeds thirty (30) days or the employee fails to pay the premium payment in a timely manner, the Practice will provide the employee with information about their rights under COBRA and/or applicable state continuation coverage policies.<br><br>
-        <u>Extension of Leave</u><br> An employee is required to return from unpaid personal leave on the originally scheduled return date. If an employee is unable to return, the employee must request an extension of the leave in writing at least two (2) weeks in advance of the return date. Leave extensions will be considered on a case-by-case basis. If the Practice denies the extension request, an employee must return to work on the originally scheduled return date or the employee will be considered to have voluntarily resigned their employment with the Practice.<br><br>
-        <u>Return to Work</u><br> In advance of an employee’s scheduled return to work date, People Operations will arrange for the employee to resume their previous position, if available. However, the Practice’s need to fill a position may override the ability to hold a position open until an employee’s return. Therefore, the Practice will not guarantee an employee’s ability to return to the same position or any position after the approved leave. The Practice in its sole discretion will determine the availability of any similar positions based on an employee’s qualifications. If the Practice is unable to reinstate an employee or if the employee refuses an offer of reinstatement in a different position, the employee’s leave status will be deemed a voluntary termination.<br><br>
-        <u>Failure to Return from Leave</u><br> If an employee fails to return to work after an unpaid leave of absence, the employee will be considered to have voluntarily resigned their employment.</div><br>
+        <u><a id="7-Exte">Extension of Leave</a></u><br> An employee is required to return from unpaid personal leave on the originally scheduled return date. If an employee is unable to return, the employee must request an extension of the leave in writing at least two (2) weeks in advance of the return date. Leave extensions will be considered on a case-by-case basis. If the Practice denies the extension request, an employee must return to work on the originally scheduled return date or the employee will be considered to have voluntarily resigned their employment with the Practice.<br><br>
+        <u><a id="7-Retu">Return to Work</a></u><br> In advance of an employee’s scheduled return to work date, People Operations will arrange for the employee to resume their previous position, if available. However, the Practice’s need to fill a position may override the ability to hold a position open until an employee’s return. Therefore, the Practice will not guarantee an employee’s ability to return to the same position or any position after the approved leave. The Practice in its sole discretion will determine the availability of any similar positions based on an employee’s qualifications. If the Practice is unable to reinstate an employee or if the employee refuses an offer of reinstatement in a different position, the employee’s leave status will be deemed a voluntary termination.<br><br>
+        <u><a id="7-Fail">Failure to Return from Leave</a></u><br> If an employee fails to return to work after an unpaid leave of absence, the employee will be considered to have voluntarily resigned their employment.</div>
 
-    <h6>Alternative Employment on Leave</h6>
+    <h5><a id="7-Alt">Alternative Employment on Leave</a></h5>
     <div class="q">While an employee is on any unpaid leave of absence, the employee may not work or be gainfully in any outside employment unless express, written permission to perform such outside work has been granted by the Practice. If an employee is on a leave of absence and is found to be working elsewhere without permission, the employee is subject to immediate disciplinary action up to and including termination.</div>
 
     <h5><a id="7-Work">Workplace Accommodations</a></h5>
@@ -1272,33 +1349,52 @@
             <li>The reason an accommodation is needed.</li>
             <li>How the accommodation will help the employee perform the essential functions of their job.</li>
         </ul>
-        After receiving the request, the Practice will engage in the interactive process with an employee to determine the precise limitations of the employee’s disability and explore potential reasonable accommodations that could overcome those limitations. Where appropriate, the Practice may require the employee’s permission to obtain additional information from their medical provider. All medical information received by the Practice in connection with a request for accommodation will be treated as strictly confidential.<br><br> The Practice encourages an employee to suggest specific reasonable accommodations that they believe would allow them to perform their job duties. However, the Practice is not required to make the specific accommodation requested by the employee and may provide an alternative accommodation, to the extent any reasonable accommodation can be made without imposing an undue hardship on the Practice.<br><br> If leave is provided as a reasonable accommodation, such leave may run concurrently with leave under the federal Family and Medical Leave Act and/or any other leave where permitted by state and federal law. The Practice will not discriminate or retaliate against employees for requesting an accommodation.</div><br>
-
-    <h6>Accommodations for Nursing Mothers</h6>
-    <div class="q">The Practice will provide nursing mothers reasonable paid break time to express milk for their infant child(ren) for up to one (1) year following the child’s birth. If an employee is nursing, they will be provided with a space, other than a restroom, that is shielded from view and free from intrusion from co-workers and the public.<br><br> Expressed milk may be stored in a company refrigerator or personal cooler and must be sufficiently marked or labeled to avoid confusion for other employees who may share the refrigerator. Break time should, if possible, be taken concurrently with any other break time already provided. Employees are encouraged to discuss the length and frequency of these breaks with their Supervisor or Manager.</div><br>
-    <h6>Religious Accommodation</h6>
+        After receiving the request, the Practice will engage in the interactive process with an employee to determine the precise limitations of the employee’s disability and explore potential reasonable accommodations that could overcome those limitations. Where appropriate, the Practice may require the employee’s permission to obtain additional information from their medical provider. All medical information received by the Practice in connection with a request for accommodation will be treated as strictly confidential.<br><br> The Practice encourages an employee to suggest specific reasonable accommodations that they believe would allow them to perform their job duties. However, the Practice is not required to make the specific accommodation requested by the employee and may provide an alternative accommodation, to the extent any reasonable accommodation can be made without imposing an undue hardship on the Practice.<br><br> If leave is provided as a reasonable accommodation, such leave may run concurrently with leave under the federal Family and Medical Leave Act and/or any other leave where permitted by state and federal law. The Practice will not discriminate or retaliate against employees for requesting an accommodation.</div>
+    
+    <h5><a id="7-Acco">Accommodations for Nursing Mothers</a></h5>
+    <div class="q">The Practice will provide nursing mothers reasonable paid break time to express milk for their infant child(ren) for up to one (1) year following the child’s birth. If an employee is nursing, they will be provided with a space, other than a restroom, that is shielded from view and free from intrusion from co-workers and the public.<br><br> Expressed milk may be stored in a company refrigerator or personal cooler and must be sufficiently marked or labeled to avoid confusion for other employees who may share the refrigerator. Break time should, if possible, be taken concurrently with any other break time already provided. Employees are encouraged to discuss the length and frequency of these breaks with their Supervisor or Manager.</div>
+    
+    <h5><a id="7-Reli">Religious Accommodation</a></h5>
     <div class="q">The Practice is dedicated to treating its employees equally and with respect and recognizes the diversity of religious beliefs. Any employees may request an accommodation when their religious beliefs cause a deviation from the Practice’s dress code or the individual’s schedule, basic job duties, or other aspects of employment. The Practice will consider the request, but reserves the right to offer its own accommodation to the extent permitted by law. Some, but not all, of the factors that will be considered are cost, the effect that an accommodation will have on current established policies, and the burden on operations, including other employees, when determining a reasonable accommodation. At no time will the Practice question the validity of a person’s religious beliefs. If an employee requires a religious accommodation, an employee should submit the request to the Director, People Operations.
-    </div><br><br><br>
+    </div>
+    
+    <h5><a id="7-HIPA">HIPAA Medical Privacy Policy</a></h5>
+    <div class="q">The Practice has adopted a policy that protects the privacy and confidentiality of employee protected health information (PHI) whenever it is used by authorized Practice representatives. The private and confidential use of such information will be the responsibility of all individuals with job duties requiring access to PHI in the course of their jobs. PHI refers to individually identifiable health information received by the Practice’s group health plans or received by a health care provider, health plan or health care clearinghouse that relates to the past or present health of an individual or to payment of health care claims. PHI information includes medical conditions, health status, claims experience, medical histories, physical examinations, genetic information and evidence of disability.<br><br>Annually or more frequently as necessary, Wellness Homes of Chicago and Wellness Home Behavioral Health processes open enrollment, changes in enrollment and payroll deductions; provides assistance in claims problem resolution and explanation of benefits issues; and assists in coordination of benefits with other providers. Some or all of these activities may require the use or transmission of PHI. Thus, all information related to these processes will be maintained in confidence, and employees will not disclose PHI from these processes for employmentrelated actions.
+        <ul class="a">
+            <li>Disclosures that do not qualify as PHI-protected disclosures include:</li>
+                <in>Disclosure of PHI to the individual to whom the PHI belongs.</in><br>
+                <in>Requests by providers for treatment or payment.</in><br>
+                <in>Disclosures requested to be made to authorized parties by the individual PHI holder.</in><br>
+                <in>Disclosures to government agencies for reporting or enforcement purposes.</in><br>
+                <in>Disclosures to workers’ compensation providers and those authorized by the workers’ compensation providers.</in>
+            <li>Information regarding whether an individual is covered by a plan for claims processing purposes may be disclosed.</li>
+            <li>Information external to the health plan is not considered PHI if the information is being furnished for claims processing purposes involving workers’ compensation or short- or long-term disability and medical information received to verify Americans with Disabilities Act (ADA) or Family and Medical Leave Act (FMLA) status.</li>
+        </ul>
+        <b>Records Retention</b><br>
+        Personnel records and disclosures of PHI will be maintained for a period of six years as required by federal law, unless a state law requires a longer retention period. Records that have been maintained for the maximum interval will be destroyed in a manner to ensure that such data are not compromised in the future in accordance with the company record destruction policy.</div><br><br>
     
     <div id="grad1"><a id="Atte">8. Attendance & Punctuality</a></div>
     <h5><a id="8-Atte">Attendance Policy</a></h5>
     <div class="q">Attendance and punctuality are key factors in an employee’s job performance. Punctuality and regular attendance are expected of all employees. Excessive unexcused absences, tardiness or leaving early is unacceptable and strictly prohibited.<br><br> When scheduled, an employee is expected to report to work on time at the beginning of their scheduled shift, ready to work. The inability to report to work on time as scheduled may lead to disciplinary action, up to and including termination of employment, for violation of the Practice’s attendance policy or job abandonment.<br><br> If an employee knows ahead of time that they will be absent or late, the employee must provide reasonable advance notice to their Supervisor or Manager. An employee may be required to provide documentation of any medical reason or other excuse for being absent or late for their scheduled shift.<br><br> The Practice reserves the right to apply unused PTO or sick leave to unauthorized absences. Absences resulting from approved leave are exceptions to this policy. Employees are expected to remain at work for their entire shift as scheduled. Late arrival, early departure or other absences from scheduled hours are disruptive and must be avoided.
-        <br><br> This policy does not apply to absences covered by the Family and Medical Leave Act (FMLA) or leave provided as a reasonable accommodation under the Americans with Disabilities Act (ADA). These exceptions are described in separate policies.</div><br>
+        <br><br> This policy does not apply to absences covered by the Family and Medical Leave Act (FMLA) or leave provided as a reasonable accommodation under the Americans with Disabilities Act (ADA). These exceptions are described in separate policies.</div>
 
-    <h6>Absences</h6>
+    <h5><a id="8-Abse">Absences</a></h5>
     <div class="q">“Absence” is defined as the failure of an employee to report for work when he or she is scheduled to work. The two types of absences are defined below:<br><br> An excused absence occurs when all the following conditions are met:
         <ul class="a">
             <li>The employee provides to their Supervisor or Manager sufficient notice at least 48 hours in advance of the absence.</li>
             <li>The absence request is approved in advance by the employee’s Supervisor or Manager.</li>
             <li>The employee has sufficient accrued paid time off (PTO) to cover the absence.</li>
         </ul>
-        An unexcused absence occurs when any of the above conditions are not met. If it is necessary for an employee to be absent or late for work because of an illness or an emergency, the employee must notify his or her Supervisor or Manager no later than one (1) hour before the employee’s scheduled starting time on that same day. If an employee is unable to call, the employee must have another individual notify their Supervisor or Manager.<br><br> When reporting an absence, an employee should indicate the nature of the problem causing the absence and their expected return to work date. A physician’s statement is required for any illness related absence in excess of three (3) consecutive work days. In the event of an emergency, an employee must notify their Supervisor or Manager as soon as possible reasonably practicable.<br><br> An unexcused absence is a violation of the Practice’s attendance policy and will result in a verbal warning for the first occurrence. Employees with three (3) or more consecutive days of excused absences because of illness or injury must give the Practice proof of physician’s care and a fitness for duty release prior to returning to work. While proof of physician’s care and/or a fitness for duty release may explain the employee’s absence, it does not excuse the absence and an occurrence may still occur.<br><br> If available, an employees must use earned PTO or sick leave for every absence according to Practice policy.<br><br> Excessive absences, tardiness or leaving early are grounds for disciplinary action, which may include a verbal warning, written warning, suspension without pay, and/or termination. Depending on the circumstances, including the employee’s length of employment, the Practice may counsel an employee prior to termination for excessive absences, tardiness or leaving early, in accordance with the Practice’s corrective disciplinary procedures.</div><br>
-    <h6>Attendance During New Hire Orientation Period</h6>
-    <div class="q">A new employee, within their probationary period, who has two (2) or more absences will receive a written warning. If a new employee, within their probationary period, has more than two (2) absences, their probationary period may be extended or their employment with the Practice may be terminated.</div><br>
-    <h6>Occurrences</h6>
-    <div class="q">An occurrence is documented as any unapproved absence, tardy, leave early, or missed time clock in/out that is not approved in advance by an employee’s Supervisor or Manager.</div><br>
-    <h6>Tardiness and Early Departures</h6>
-    <div class="q">Employees are required to return from scheduled breaks on time. Employees, when scheduled, are required to work to the end of their scheduled shift. Employees who must leave work before the end of their scheduled shift must notify their Supervisor or Manager immediately. An employee who violates this policy is subject to disciplinary action which may include a written warning, suspension without pay, or termination of employment.<br><br> An employee is deemed to be tardy when:
+        An unexcused absence occurs when any of the above conditions are not met. If it is necessary for an employee to be absent or late for work because of an illness or an emergency, the employee must notify his or her Supervisor or Manager no later than one (1) hour before the employee’s scheduled starting time on that same day. If an employee is unable to call, the employee must have another individual notify their Supervisor or Manager.<br><br>When reporting an absence, an employee should indicate the nature of the problem causing the absence and their expected return to work date. A physician’s statement or return to work (RTW) authorization is <u>required</u> for any illness related absence in excess of three (3) consecutive workdays and must be submitted to People Operations. In the event of an emergency, an employee must notify their Manager as soon as possible reasonably practicable.<br><br>An unexcused absence is a violation of the Practice’s attendance policy and will result in a verbal warning for the first occurrence. Employees with three (3) or more consecutive days of excused absences because of illness or injury must provide a return to work authorization from a licensed healthcare provider to People Operations prior to resuming work.<br><br>If available, an employee must use earned PTO or sick leave for every absence according to Practice policy.<br><br>Excessive absences, tardiness or leaving early are grounds for disciplinary action, which may include a verbal warning, written warning, suspension without pay, and/or termination. Depending on the circumstances, including the employee’s length of employment, the Practice may counsel an employee prior to termination for excessive absences, tardiness or leaving early, in accordance with the Practice’s corrective disciplinary procedures.</div>
+
+    <h5><a id="8-NewH">Attendance During New Hire Orientation Period</a></h5>
+    <div class="q">A new employee, within their probationary period, who has two (2) or more absences will receive a written warning. If a new employee, within their probationary period, has more than two (2) absences, their probationary period may be extended or their employment with the Practice may be terminated.</div>
+    
+    <h5><a id="8-Occu">Occurrences</a></h5>
+    <div class="q">An occurrence is documented as any unapproved absence, tardiness, leave early, or missed time clock in/out that is not approved in advance by an employee’s Manager. An employee who receives three (3) or more occurrences within a 90-day period may be subject to disciplinary action up to and including an unpaid suspension or termination of employment.</div>
+    
+    <h5><a id="8-Tard">Tardiness and Early Departures</a></h5>
+    <div class="q">Employees are <u>required</u> to return from scheduled breaks on time. Employees, when scheduled, are required to work to the end of their scheduled shift. Employees who must leave work before the end of their scheduled shift must notify their Supervisor or Manager immediately. An employee who violates this policy is subject to disciplinary action which may include a written warning, suspension without pay, or termination of employment.<br><br> An employee is deemed to be tardy when:
         <ul class="a">
             <li>The employee fails to report for work at the assigned/scheduled work time; or</li>
             <li>The employee takes an extended meal or break period without prior approval from their Supervisor or Manager.
@@ -1309,7 +1405,8 @@
             <li>The employee leaves work prior to the end of assigned/scheduled work time without prior approval from their Supervisor or Manager.</li>
         </ul>
     </div>
-    <h6>Time Clocks and Failure to Clock In/Out</h6>
+    
+    <h5><a id="8-Time">Time Clocks and Failure to Clock in/out</a></h5>
     <div class="q">Employees are required to follow established guidelines for recording their actual hours worked. A missed clock in/out is a violation of this policy and includes:
         <ul class="a">
             <li>Failure to clock in/out at the beginning and/or end of their assigned shift;</li>
@@ -1325,10 +1422,10 @@
     <div class="q">Practice departments may develop a departmental attendance/punctuality policy that meets the unique operational needs of the department. If executive leadership determines that a departmental policy is needed, the department will follow its approval process to establish the policy which requires final approval from executive leadership. This policy is intended as a guideline to assist in the consistent application of policies and programs for employees. The policy does not create a contract implied or expressed, with any Practice employees, who are employees at will. The Practice reserves the right to modify this policy in whole or in part, at any time, at the discretion of the Practice.</div>
 
     <h5><a id="8-Disc">Disciplinary Action</a></h5>
-    <div class="q">Excessive absenteeism is defined as two (2) or more occurrences of unexcused absences within a 30-day period and will result in disciplinary action. Excessive tardiness or absenteeism is subject to disciplinary action up to and including suspension without pay and/or termination of employment.<br><br> Employees who are absent without notification (No Call/No Show) to their Supervisor or Manager are subject to immediate disciplinary action which may include suspension without pay or immediate termination of employment with the Practice.<br><br> Supervisors and Managers are expected to monitor their direct reports’ attendance on a regular basis and address unsatisfactory attendance in a timely and consistent manner. If the Supervisor or Manager notices a pattern of unscheduled usage of accrued time off banks, they should discuss the concern with the employee.<br><br> When an employee has been previously counseled under the Progressive Discipline Policy the totality of the circumstances will be assessed when determining further disciplinary action. For situations involving suspension or termination of employment, the Supervisor or Manager should consult with People Operations prior to implementing disciplinary action.<br><br> Timely and regular attendance is a part of job performance and it is the expectation that all Practice employees must follow established attendance policies. Consequently, employees who have exhibited unsatisfactory attendance which results in disciplinary action (whether verbal or written) may have the behavior documented during their annual performance evaluation.</div>
+    <div class="q">Excessive absenteeism is defined as three (3) or more occurrences of <u>unexcused</u> absences within a 90-day period and will result in disciplinary action. Excessive tardiness or absenteeism is subject to disciplinary action up to and including suspension without pay and/or termination of employment.<br><br> Employees who are absent without notification (No Call/No Show) to their Manager are subject to immediate disciplinary action which may include suspension without pay or immediate termination of employment with the Practice.<br><br> Managers are expected to monitor their direct reports’ attendance on a regular basis and address unsatisfactory attendance in a timely and consistent manner. If the Manager notices a pattern of unscheduled usage of accrued time off banks, they should discuss the concern with the employee.<br><br> When an employee has been previously counseled under the Progressive Discipline Policy the totality of the circumstances will be assessed when determining further disciplinary action. For situations involving suspension or termination of employment, the Manager should consult with the Director, People Operations prior to implementing disciplinary action to ensure compliance with procedures and/or employment law.<br><br>Timely and regular attendance is a part of job performance and it is the expectation that all Practice employees must follow established attendance policies. Consequently, employees who have exhibited unsatisfactory attendance which results in disciplinary action (whether verbal or written) may have the behavior documented during their annual performance evaluation.</div>
 
     <h5><a id="8-Holi">Holidays</a></h5>
-    <div class="q">If an employee calls out of work the day before or the day after a paid Practice holiday, the employee if eligible will not receive holiday pay. The employee may also be subject to progressive disciplinary action.</div><br><br><br>
+    <div class="q">If an employee calls off from a scheduled shift the day before or the day after a paid Practice holiday, the employee will not receive holiday pay. The employee may also be subject to progressive disciplinary action.</div><br><br><br>
 
     <div id="grad1"><a id="Perf">9. Performance Management</a></div>
     <h5><a id="9-Prog">Progressive Disciplinary Process</a></h5>
@@ -1341,7 +1438,7 @@
             </li>
             <li><strong>Final Warnings</strong> are issued if an employee’s performance does not improve following a Written Warning or if the performance deficiencies are more severe than those appropriate for a Verbal or Written Warning. In certain circumstances, a Final Warning may be given to address a serious performance deficiency wherein continued recurrence of the behavior will result in termination of employment.</li>
         </ul>
-        Supervisors and Managers will make every effort possible to allow an employee to respond to any disciplinary action taken. While the Practice will attempt to be consistent in the enforcement of its policies, the Practice is not obligated to follow any disciplinary or grievance procedure and depending on the circumstances, an employee may be disciplined or terminated without any prior warning or procedure.<br><br> Behavior that is illegal is not subject to corrective discipline, and such behavior may be reported to local law enforcement authorities. Similarly, theft, substance abuse, intoxication, fighting and other acts of violence in the workplace or at a Practice-sponsored event are also not subject to corrective discipline and may be grounds for immediate termination.</div>
+        Managers will make every effort possible to allow an employee to respond to any disciplinary action taken. While the Practice will attempt to be consistent in the enforcement of its policies, the Practice is not obligated to follow any disciplinary or grievance procedure and depending on the circumstances, an employee may be disciplined or terminated without any prior warning or procedure.<br><br> Behavior that is illegal is not subject to corrective discipline, and such behavior may be reported to local law enforcement authorities. Similarly, theft, substance abuse, intoxication, fighting and other acts of violence in the workplace or at a Practice-sponsored event are also not subject to corrective discipline and may be grounds for immediate termination.</div>
 
     <h5><a id="9-Perf">Performance Evaluations</a></h5>
     <div class="q">The Practice will review each employee’s work performance. At the end of an employee’s initial 90-day introductory/probationary period, the employee’s direct Supervisor or Manager will evaluate an employee’s performance for continued employment.<br><br> Regular full-time and part-time employees will receive an annual performance evaluation. The performance evaluation process is a means for increasing the quality of an employee’s performance and to provide feedback in needed areas of improvement. An employee’s initiative, effort, attitude, job knowledge, and other factors will be addressed. An employee must understand that a positive performance review does not guarantee a pay raise or continued employment. Pay raises and promotions are based on many factors, including job performance.</div>
@@ -1365,31 +1462,31 @@
     <div class="q">The Practice maintains an official bulletin board in Practice facilities to provide employees with official Practice notices, including wage and hour laws, changes in policies, and other employment-related notices. At times the Practice may also post information of general interest to employees on the bulletin board. Each employee is responsible for being informed about this material by periodically reviewing the bulletin board. Only authorized personnel may add and remove notices from the bulletin board.</div>
 
     <h5><a id="10-Incl">Inclement Weather/Emergencies</a></h5>
-    <div class="q">The Practice recognizes that inclement weather and other emergencies may affect an employee’s ability to get to work. In such situations, an employee’s safety is paramount. If an employee is unable to safely travel to work for their scheduled shift, the employee must notify their Supervisor or Manager. If the employee has PTO available, the employee may be charged PTO to cover the absence.</div><br>
+    <div class="q">The Practice recognizes that inclement weather and other emergencies may affect an employee’s ability to get to work. In such situations, an employee’s safety is paramount. If an employee is unable to safely travel to work for their scheduled shift, the employee must notify their Supervisor or Manager. If the employee has PTO available, the employee may be charged PTO to cover the absence.</div>
 
-    <h6>Company Closure</h6>
-    <div class="q">Examples of emergencies when the Practice may close include, but are not limited to, closures for power outage, extreme temperature or weather conditions.</div><br>
+    <h5><a id="10-Comp">Company Closure</a></h5>
+    <div class="q">Examples of emergencies when the Practice may close include, but are not limited to, closures for power outage, extreme temperature or weather conditions.</div>
 
-    <h6>Notification</h6>
-    <div class="q">In an emergency, the Practice will make every effort to notify an employee of a facility’s closure. These notification efforts may be transmitted via text, phone call or email. When the Practice is unable to notify employees of an office closure, an employee should use common sense to assess the safety and practicality of the situation. In a regional power outage, for example, the Practice is unlikely to have power. If there is reported flash flooding in an employee’s area, the employee should report to work only if the employee is able to commute safely.</div><br>
+    <h5><a id="10-Noti">Notification</a></h5>
+    <div class="q">In an emergency, the Practice will make every effort to notify an employee of a facility’s closure. These notification efforts may be transmitted via text, phone call or email. When the Practice is unable to notify employees of an office closure, an employee should use common sense to assess the safety and practicality of the situation. In a regional power outage, for example, the Practice is unlikely to have power. If there is reported flash flooding in an employee’s area, the employee should report to work only if the employee is able to commute safely.</div>
 
-    <h6>Partial-Day Closure</h6>
-    <div class="q">If an emergency event such as inclement weather or a power outage occurs, the Practice may decide to close midday. When the Practice closes mid-day, employees will be instructed to leave immediately so that the conditions do not further deteriorate and affect employees’ ability to travel safely.<br><br> If an exempt employee is at the office or is working from home, with permission, the employee will be paid their normal salary for the week. If a nonexempt employee is at work on a day the Practice closes early, the employee will be paid for hours worked.</div><br>
+    <h5><a id="10-Part">Partial-Day Closure</a></h5>
+    <div class="q">If an emergency event such as inclement weather or a power outage occurs, the Practice may decide to close midday. When the Practice closes mid-day, employees will be instructed to leave immediately so that the conditions do not further deteriorate and affect employees’ ability to travel safely.<br><br> If an exempt employee is at the office or is working from home, with permission, the employee will be paid their normal salary for the week. If a nonexempt employee is at work on a day the Practice closes early, the employee will be paid for hours worked.</div>
 
-    <h6>Notification of Closure Prior to Reporting to Work</h6>
-    <div class="q">Nonexempt employees that are notified of a closure prior to reporting to work will not be paid during the closure. An exempt employee will be paid their normal salary for the week.</div><br>
+    <h5><a id="10-Prio">Notification of Closure Prior to Reporting to Work</a></h5>
+    <div class="q">Nonexempt employees that are notified of a closure prior to reporting to work will not be paid during the closure. An exempt employee will be paid their normal salary for the week.</div>
 
-    <h6>Extending Leave</h6>
-    <div class="q">When the Practice closure ends, employees are expected to report to work. An employee must contact their Supervisor or Manager if the employee is unable return to work at the end of the closure. The Practice recognizes that an employee may need additional time off to repair extensive home damage or for other emergency situations. Unique circumstances may affect an employee’s ability to report to work even when the Practice is able to remain open. Each employee’s situation will be assessed on a case-by-case basis.<br><br> The Practice recognizes that in a severe national or regional disaster, all methods of communication may be unavailable; however, an employee must attempt to contact their Supervisor or Manager, by any method possible.<br><br> If an employee is unable to work in a situation where the Practice remains open, the employee is required to use any available PTO or if the employee has no PTO remaining, the time off will be unpaid.</div>
+    <h5><a id="10-Exte">Extending Leave</a></h5>
+    <div class="q">When the Practice closure ends, employees are expected to report to work. An employee must contact their Manager if the employee is unable return to work at the end of the closure. The Practice recognizes that an employee may need additional time off to repair extensive home damage or for other emergency situations. Unique circumstances may affect an employee’s ability to report to work even when the Practice is able to remain open. Each employee’s situation will be assessed on a case-by-case basis.<br><br> The Practice recognizes that in a severe national or regional disaster, all methods of communication may be unavailable; however, an employee must attempt to contact their Manager, by any method possible.<br><br> If an employee is unable to work in a situation where the Practice remains open, the employee is required to use any available PTO or if the employee has no PTO remaining, the time off will be unpaid.</div>
 
     <h5><a id="10-Comp">Computer Security</a></h5>
     <div class="q">Desktop computers, laptops, tablets and software programs purchased and provided by the Practice are to only be used by employees for creating, researching, and processing materials for business conducted on behalf of the Practice. By using Practice hardware, software, and networking systems an employee assumes personal responsibility for their use and agrees to comply with this policy and other applicable Practice policies, as well as city, state, and federal laws and regulations.<br><br> All software acquired for or on behalf of the Practice, or developed by Practice employees or contract personnel on behalf of the Practice, is and will be deemed Practice intellectual property. It is the policy of the Practice to respect all computer software rights and to adhere to the terms of all software licenses to which the Practice is a party. An employee may not illegally duplicate any licensed software or related documentation. Unauthorized duplication of software may subject the employee and/or the Practice to both civil and criminal penalties under the United States Copyright Act.<br><br> An employee may not duplicate, copy, or give software to any external parties including clients, contractors, customers, and others. Employees may use software on local area networks or on multiple computer systems only in accordance with applicable license agreements entered into by the Practice. The Director, People Operations and/or the Director, Compliance is responsible for enforcing these policies and guidelines.</div>
 
     <h5><a id="10-Conf">Confidentiality and Nondisclosure of Trade Secrets</a></h5>
-    <div class="q">As a condition of employment, Practice employees are required to protect the confidentiality of Practice trade secrets, proprietary information, and confidential commercially-sensitive information (i.e., financial or sales records/reports, marketing or business strategies/plans, product development, customer lists, patents, trademarks, etc.) related to the Practice. Access to this information should be limited to a “need to know” basis and should not be used for personal benefit, disclosed, or released without prior authorization from the Chief Wellness Officer.<br><br> If an employee believes that other employees or contractors are sharing such information in violation of this policy, and/or competitors are obtaining such information, an employee is required to inform their Supervisor, Manager or member of executive leadership.<br><br> Disclosure of confidential information in violation of this policy may result in disciplinary action up to and including termination, and may subject the violator to civil liability.</div>
+    <div class="q">As a condition of employment, Practice employees are required to protect the confidentiality of Practice trade secrets, proprietary information, and confidential commercially-sensitive information (i.e., financial or sales records/reports, marketing or business strategies/plans, product development, customer lists, patents, trademarks, etc.) related to the Practice. Access to this information should be limited to a “need to know” basis and should not be used for personal benefit, disclosed, or released without prior authorization from the Chief Wellness Officer or Chief Operating Officer.<br><br>Executive staff and staff employed in management positions are required to sign a Non-Disclosure and Confidentiality Agreement which prohibits the sharing any confidential employee information obtained during the performance of their job duties with employees or other individuals not authorized to be in possession of such confidential information. Disclosure of confidential information in violation of this policy will result in disciplinary action up to and including termination and may subject the violator to civil liability.<br><br>If an employee believes that other employees or contractors are sharing such information in violation of this policy, and/or competitors are obtaining such information, an employee is required to inform their Supervisor, Manager or member of the executive leadership team.</div>
 
     <h5><a id="10-Empl">Employer Sponsored Social Events</a></h5>
-    <div class="q">The Practice may hold periodic social events for employees. Be advised that an employee’s attendance at these events is voluntary and does not constitute part of staff’s work-related duties. Any exceptions to this policy must be in writing and signed by a Supervisor, Manager or executive leadership prior to the event.<br><br> Alcoholic beverages may or may not be available at these events. If an employee voluntarily consumes alcoholic beverages, the employee must do so in a responsible manner. Under no circumstances may any employee drink alcoholic beverages and drive. If an employee chooses to consume alcohol, the employee must call a taxi/Uber/Lyft or appoint a designated driver.</div>
+    <div class="q">The Practice may hold periodic social events for employees. Be advised that an employee’s attendance at these events is voluntary and does not constitute part of staff’s work-related duties. Any exceptions to this policy must be in writing and signed by a Supervisor, Manager or executive leadership prior to the event.<br><br> Alcoholic beverages may or may not be available at these events. If an employee voluntarily consumes alcoholic beverages, the employee must do so in a responsible manner. Under no circumstances may any employee drink alcoholic beverages and drive. If an employee chooses to consume alcohol, the employee must call a taxi/Uber/Lyft or appoint a designated driver. Violations of this policy must be reported to People Operations.</div>
 
     <h5><a id="10-Inve">Inventions</a></h5>
     <div class="q">Any invention created, in whole or in part, during an employee’s work hours or from the use of equipment or facilities belonging to the Practice is considered “work for hire” and is the property of the Practice.<br><br> If an employee intends to develop and maintain property rights to any invention that relates in any way to products or services of the Practice, the employee is required to obtain a written waiver of this policy signed by both the employee and the Chief Wellness Officer. Only the Chief Wellness Officer in his sole discretion has the authority to grant this waiver.</div>
@@ -1406,16 +1503,25 @@
 
     <h5><a id="10-Open">Open Door/Conflict Resolution Policy</a></h5>
     <div class="q">The Practice strives to provide a comfortable, productive, legal, and ethical work environment. To this end, the Practice encourages employees to bring any problems, concerns, or grievances to the attention of the Director, People Operation. To help manage and facilitate conflict resolution, the Practice has implemented the following procedures:
-        <br><br> If an employee has reason to believe that there is inappropriate conduct or activity on the part of the Practice, management, its employees, vendors, customers, or any other persons or entities related to the Practice, the employee should immediately bring their concerns to the attention of the employee’s Supervisor or Manager at a time and place that will allow the appropriate individual to properly listen and address the concern. Many issues can be resolved informally through dialogue between an employee and their immediate Supervisor or Manager. If an employee does not believe the issue has been sufficiently resolved or if the employee believes the immediate Supervisor or Manager is the source of the problem, the employee must present their concerns to the Director, People Operations. The Director, People Operations may request the employee provide the details in writing including the exact issue, the persons involved in the problem, the date of the occurrence and any other relevant information. The Director, People Operations will first attempt to resolve the issue. If an amicable resolution is unable to be reached, the Director, People Operations will consult with the Chief Operating Officer and Chief Wellness Officer.</div>
+        <br><br> If an employee has reason to believe that there is inappropriate conduct or activity on the part of the Practice, management, its employees, vendors, customers, or any other persons or entities related to the Practice, the employee should immediately bring their concerns to the attention of the employee’s Supervisor or Manager at a time and place that will allow the appropriate individual to properly listen and address the concern. Many issues can be resolved informally through dialogue between an employee and their immediate Supervisor or Manager.<br><br>If an employee does not believe the issue has been sufficiently resolved or if the employee believes the immediate Supervisor or Manager is the source of the problem, the employee must present their concerns to the Director, People Operations. The Director, People Operations may request the employee provide the details in writing including the exact issue, the persons involved in the problem, the date of the occurrence and any other relevant information. The Director, People Operations will first attempt to resolve the issue. If an amicable resolution is unable to be reached, the Director, People Operations will consult with the Chief Operating Officer and Chief Wellness Officer.</div>
 
     <h5><a id="10-Outs">Outside Employment</a></h5>
     <div class="q">Outside employment that creates a conflict of interest or that affects the quality or value of an employee’s work performance or availability to work at the Practice is strictly prohibited. The Practice recognizes that employees may seek additional employment during off hours, however in all cases without exception, the expectation is that any outside employment will not affect an employee’s attendance, job performance, productivity, work hours, or scheduling availability. If outside employment adversely affects an employee’s ability to effectively perform the duties of their position or creates a conflict of interest, the Practice may prohibit the outside employment. All employees must report to the Director, People Operations any outside employment that violates this policy. Failure to adhere to this policy may result in discipline up to and including termination.</div>
 
     <h5><a id="10-Pati">Patient, Client, and Visitor Relations</a></h5>
-    <div class="q">The Practice strives to provide the best products and services possible to our patients and clients. Our patients and clients support the business of the Practice. Employees are expected to treat every patient, client, or visitor with the utmost respect and courtesy at all times. Employees should never argue with or act in a disrespectful manner towards a visitor, client or patient. If an employee experiences a problem or issue with a patient, client, or visitor, the employee must notify their Supervisor or Manager immediately. If a patient, client, or visitor voices a suggestion, complaint, or concern regarding Practice products or services, the employee should notify their Supervisor or Manager or a member of executive leadership. Employees must make every effort to be prompt in following up on patient, client, or visitor orders or questions. Positive patient, client, and visitor relations is essential to establishing the Practice as a leader in its field.</div>
+    <div class="q">The Practice strives to provide the best products and services possible to our patients and clients. Our patients and clients support the business of the Practice. Employees are expected to treat every patient, client, or visitor with the utmost respect and courtesy at all times. Employees should never argue with or act in a disrespectful manner towards a visitor, client or patient. If an employee experiences a problem or issue with a patient, client, or visitor, the employee must notify their Supervisor or Manager immediately.<br><br>If a patient, client, or visitor voices a suggestion, complaint, or concern regarding Practice products or services, the employee should notify their Supervisor or Manager or a member of executive leadership. Employees must make every effort to be prompt in following up on patient, client, or visitor orders or questions. Positive patient, client, and visitor relations is essential to establishing the Practice as a leader in its field.</div>
 
     <h5><a id="10-Pers">Personal Cell Phone/Mobile Device Use</a></h5>
-    <div class="q">While the Practice permits employees to bring personal cell phones and other mobile devices (i.e., smart phones, tablets, laptops) into the workplace, an employee must not allow the use of such devices to interfere with their job duties or impact workplace safety and health.<br><br> Use of personal cell phones and mobile devices at work can be distracting and disruptive and cause a loss of productivity. Use of such devices must be minimal and limited to emergency use only. Employees should never use their personal cell phones or mobile devices while they are assisting a patient or client of the Practice. If an employee’s device has a camera and/or audio/video recording capabilities, employees are strictly prohibited from recording other employees, patients or clients without their consent. Employees are strictly prohibited from taking pictures or recording information deemed confidential and proprietary when using personal devices unless expressly authorized by the Chief Wellness Officer.<br><br> Employees should primarily use such personal devices during nonworking time, such as breaks and meal periods. During this time, use of such devices must be in a manner that is courteous to those individuals that may be in the near vicinity. Nothing in this policy is meant to restrict employee rights to engage in concerted activity under section 7 of the National Labor Relations Act (NLRA).<br><br> While operating a vehicle on work time, the Practice requires that the driver’s personal cell phone/mobile device be in silent mode or turned off. If an employee needs to make or receive a phone call while driving, the employee must use the device hands-free or pull off the road to a safe location in compliance with applicable state laws.<br><br> An employee may use a personal device for work purposes. Before using a personal device for work-related purposes, the employee must obtain verbal authorization from their Manager, Supervisor or member of executive leadership. The use of personal devices is limited to certain employees and may be limited based on compatibility with Practice technology. To ensure the security of Practice information, the Practice may set forth security policies related to specific devices, such as software requirements (antivirus, firewall, VPN, etc.). If an employee is authorized to use a personal device during the course of performing their job duties, the employee will receive a monthly stipend based on the estimated use of the device. If an employee obtains or currently has a plan that exceeds the monthly stipend, the Practice will not be liable for the cost difference.<br><br> Employees will be subject to disciplinary action up to and including termination of employment for violation of this policy.<br><br> Nothing in this policy is intended to prevent employees from engaging in protected concerted activity under the NLRA.
+    <div class="q">While the Practice permits employees to bring personal cell phones and other mobile devices (i.e., smart phones, tablets, laptops) into the workplace, an employee must not allow the use of such devices to interfere with their job duties or impact workplace safety and health.<br><br> Use of personal cell phones and mobile devices at work can be distracting and disruptive and cause a loss of productivity. Use of such devices must be minimal and limited to emergency use only. Employees should never use their personal cell phones or mobile devices while they are assisting a patient or client of the Practice. If an employee’s device has a camera and/or audio/video recording capabilities, employees are strictly prohibited from recording other employees, patients or clients without their consent. Employees are strictly prohibited from taking pictures or recording information deemed confidential and proprietary when using personal devices unless expressly authorized by the Chief Wellness Officer.
+      <ul class="a">
+            <li>Prohibited Use:</li>
+                <in>Personal use of mobile phones, including texting, browsing, or making calls, is not permitted during work hours when employees are expected to be performing their duties or interacting with patients.</in><br>  
+                <in>Employees providing direct patient care or engaging with patients must refrain from using their mobile devices at all times while fulfilling these responsibilities.</in><br>
+            <li>Permitted Use:</li>
+                <in>Brief, intermittent use of mobile phones is allowed during designated break times or in nonpatient-facing areas.</in><br>  
+                <in>Mobile phone use is permitted in emergency situations, provided it does not interfere with patient care or disrupt the workplace.</in><br>
+      </ul>       
+        Employees should primarily use such personal devices during nonworking time, such as breaks and meal periods. During this time, use of such devices must be in a manner that is courteous to those individuals that may be in the near vicinity. Nothing in this policy is meant to restrict employee rights to engage in concerted activity under section 7 of the National Labor Relations Act (NLRA).<br><br> While operating a vehicle on work time, the Practice requires that the driver’s personal cell phone/mobile device be in silent mode or turned off. If an employee needs to make or receive a phone call while driving, the employee must use the device hands-free or pull off the road to a safe location in compliance with applicable state laws.<br><br> An employee may use a personal device for work purposes. Before using a personal device for work-related purposes, the employee must obtain verbal authorization from their Manager, Supervisor or member of executive leadership. The use of personal devices is limited to certain employees and may be limited based on compatibility with Practice technology. To ensure the security of Practice information, the Practice may set forth security policies related to specific devices, such as software requirements (antivirus, firewall, VPN, etc.). If an employee is authorized to use a personal device during the course of performing their job duties, the employee will receive a monthly stipend based on the estimated use of the device. If an employee obtains or currently has a plan that exceeds the monthly stipend, the Practice will not be liable for the cost difference.<br><br> Employees will be subject to disciplinary action up to and including termination of employment for violation of this policy.<br><br> Nothing in this policy is intended to prevent employees from engaging in protected concerted activity under the NLRA.
     </div>
 
     <h5><a id="10-Prac">Practice Appearance Policy</a></h5>
@@ -1429,9 +1535,7 @@
         <br><br> Management also encourages employees to offer any suggestions derived from seminars, magazines, or other outside sources of information which would add value to the Practice.<br><br> Please note, that any suggestions, innovations, inventions, or other intellectual property created by an employee on work time or with Practice tools or property are considered to be the property of the Practice.</div>
 
     <h5><a id="10-Tele">Telecommuting</a></h5>
-    <div class="q">Telecommuting is defined as regularly working a full or partial workday from home or some other alternate work site.
-        <br><br> The Practice will make telecommuting available to employees when it benefits organizational and departmental needs. This option may not be available in some job classifications due to business needs. Each Department Manager will determine, in their discretion, the positions within the department that may be suitable for telecommuting.
-        <br><br> If an employee’s position meets eligibility requirements for telecommuting, the employee must submit a Telecommuting Agreement form to their immediate Supervisor or Manager for approval. If an employee is granted a telecommuting arrangement, the employee is subject to the same performance standards as employees that work on-site. Telecommuting work areas may be evaluated to ensure that appropriate safety standards are met. Telecommuting may be considered as a reasonable accommodation under the ADA. Please consult with the Director, People Operations if an employee is requesting telecommuting as a reasonable accommodation.</div>
+    <div class="q">Telecommuting is defined as working a full or partial workday from home or other alternate work site. The Practice will make telecommuting available to employees when it benefits organizational and departmental needs. This option may not be available in certain job classifications due to business needs. Each Department Manager will determine, in their discretion, the positions within the department that may be suitable for telecommuting.<br><br>If an employee’s position meets eligibility requirements for telecommuting, the employee must submit a Telecommuting request in writing to their immediate Supervisor or Manager for approval. If an employee is granted a telecommuting arrangement, the employee is subject to the same performance standards as employees that work on-site. Telecommuting work areas may be evaluated to ensure that appropriate safety standards are met. Telecommuting may be considered as a reasonable accommodation under the ADA. Managers should submit all requests for a reasonable accommodation under the ADA to the Director/People Operations to engage the interactive process.</div>
 
     <h5><a id="10-Thir">Third Party Disclosures</a></h5>
     <div class="q">From time to time, the Practice may become involved in news stories or potential or actual legal proceedings of various kinds. When that happens, lawyers, former employees, newspapers, law enforcement agencies, and other outside persons may contact Practice employees to obtain information about the incident or the actual or potential lawsuit.<br><br> If an employee receives such a contact, the employee should not speak on behalf of the Practice and must immediately refer any call, email or text to the Chief Wellness Officer or the Director, People Operations. If an employee has any questions regarding this policy or is not certain what to do when such a contact is made, the employee should contact the Director, People Operations.</div>
@@ -1449,11 +1553,11 @@
         </ul>
     </div>
 
-    <h6>General Provisions</h6>
+    <h5><a id="Gene">General Provisions</a></h5>
     <div class="q">Practice IT resources and communications systems are to be used strictly for business purposes only unless otherwise permitted under applicable law.<br><br> All content maintained in Practice IT resources and communications systems are the property of the Practice. Therefore, employees should have no expectation of privacy in any message, file, data, document, facsimile, telephone conversation, social media post, conversation, or any other kind or form of information or communication transmitted to, received, or printed from, or stored or recorded on Practice electronic information and communications systems.<br><br> The Practice reserves the right to monitor, intercept, and/or review all data transmitted, received, or downloaded over Practice IT resources and communications systems in accordance with applicable law. Any individual who is given access to the system is hereby given notice that the Practice will exercise this right periodically, without prior notice and without prior consent.<br><br> The interests of the Practice in monitoring and intercepting data include, but are not limited to: protection of Practice trade secrets, proprietary information, and similar confidential commercially sensitive information (i.e. financial or sales records/reports, marketing or business strategies/plans, product development, customer lists, patents, trademarks, etc.); managing the use of the computer system; and/or assisting employees in the management of electronic data during periods of absence. Employees should not interpret the use of password protection as creating a right or expectation of privacy, nor should an employee have a right or expectation of privacy regarding the receipt, transmission, or storage of data on Practice IT resources and communications systems.
         <br><br> No employee should use any Practice IT resources and/or communications systems for any matter wherein the employee wishes the information to be kept private or confidential.</div><br>
 
-    <h6>Violations</h6>
+    <h5><a id="Viol">Violations</a></h5>
     <div class="q">If an employee violates this policy, the employee will be subject to corrective action, up to and including termination of employment. If necessary, the Practice will also advise appropriate law enforcement officials of any illegal activity or conduct.</div>
 
     <h5><a id="10-Work">Workplace Privacy and Right to Inspect</a></h5>
@@ -1461,18 +1565,18 @@
 
     <div id="grad1"><a id="Soci">11. Social Media</a></div>
     <h5><a id="11-Soci">Social Media Policy</a></h5>
-    <div class="q">At the Practice, leadership recognizes the internet provides unique opportunities to participate in interactive discussions and share information using a wide variety of social media. However, use of social media also presents certain risks and carries with it certain responsibilities. To minimize risks to the Practice, an employee who chooses employment with the Practice is expected to follow Practice guidelines for appropriate use of social media.<br><br> This policy applies to all employees who work for the Practice.</div><br>
+    <div class="q">At the Practice, leadership recognizes the internet provides unique opportunities to participate in interactive discussions and share information using a wide variety of social media. However, use of social media also presents certain risks and carries with it certain responsibilities. To minimize risks to the Practice, an employee who chooses employment with the Practice is expected to follow Practice guidelines for appropriate use of social media.<br><br> This policy applies to all employees who work for the Practice.</div>
 
-    <h6>Guidelines</h6>
-    <div class="q">For purposes of this policy, social media includes all means of communicating or posting information or content of any sort on the Internet, including to an employee’s own or someone else’s blog, journal or diary, personal website, social networking or affinity website, web bulletin boards or a chat rooms, whether associated or affiliated with the Practice, as well as any other form of electronic communication.<br><br> Practice principles, guidelines, and policies apply to online activities just as they apply to other areas of work. Ultimately, each employee is solely responsible for what they post or communicate on social media. An employee may be personally responsible or liable for any litigation that may arise from an employee’s unlawful, defamatory, slanderous, or libelous statements against any customer, patient, manager, owner, or employee of the Practice.</div><br>
+    <h5><a id="11-Guid">Guidelines</a></h5>
+    <div class="q">For purposes of this policy, social media includes all means of communicating or posting information or content of any sort on the Internet, including to an employee’s own or someone else’s blog, journal or diary, personal website, social networking or affinity website, web bulletin boards or a chat rooms, whether associated or affiliated with the Practice, as well as any other form of electronic communication.<br><br> Practice principles, guidelines, and policies apply to online activities just as they apply to other areas of work. Ultimately, each employee is solely responsible for what they post or communicate on social media. An employee may be personally responsible or liable for any litigation that may arise from an employee’s unlawful, defamatory, slanderous, or libelous statements against any customer, patient, manager, owner, or employee of the Practice.</div>
 
-    <h6>Know and Follow the Rules</h6>
-    <div class="q">Every employee must ensure their posting(s) are consistent with these guidelines. Postings that include unlawful discriminatory remarks, harassment, and threats of violence or other unlawful conduct will not be tolerated and may subject any employee to disciplinary action up to and including termination of employment.</div><br>
+    <h5><a id="11-Know">Know and Follow the Rules</a></h5>
+    <div class="q">Every employee must ensure their posting(s) are consistent with these guidelines. Postings that include unlawful discriminatory remarks, harassment, and threats of violence or other unlawful conduct will not be tolerated and may subject any employee to disciplinary action up to and including termination of employment.</div>
 
-    <h6>Be Respectful</h6>
-    <div class="q">The Practice cannot force or mandate respectful and courteous activity by employees on social media during nonworking time. However, if an employee decides to post complaints or criticism, it is imperative that the employee avoid using statements, photographs, video, or audio that reasonably could be viewed as unlawful, slanderous, threatening, or that might constitute unlawful harassment. Examples of such conduct might include defamatory or slanderous posts meant to harm someone’s reputation or posts that may contribute to a hostile work environment on the basis of race, sex, disability, age, national origin, religion, veteran status, or any other status or class protected by law or Practice policy. Any personal posts and social media activity an employee makes should not reflect upon or refer to the Practice.</div><br>
+    <h5><a id="11-BeRe">Be Respectful</a></h5>
+    <div class="q">The Practice cannot force or mandate respectful and courteous activity by employees on social media during nonworking time. However, if an employee decides to post complaints or criticism, it is imperative that the employee avoid using statements, photographs, video, or audio that reasonably could be viewed as unlawful, slanderous, threatening, or that might constitute unlawful harassment. Examples of such conduct might include defamatory or slanderous posts meant to harm someone’s reputation or posts that may contribute to a hostile work environment on the basis of race, sex, disability, age, national origin, religion, veteran status, or any other status or class protected by law or Practice policy. Any personal posts and social media activity an employee makes should not reflect upon or refer to the Practice.</div>
 
-    <h6>Maintain Accuracy and Confidentiality</h6>
+    <h5><a id="11-Main">Maintain Accuracy and Confidentiality</a></h5>
     <div class="q">When posting information:
         <ul class="a">
             <li>Employees must maintain the confidentiality of trade secrets, intellectual property, and confidential commercially-sensitive information (i.e., financial or sales records/reports, marketing or business strategies/plans, product development, customer lists, patents, trademarks, etc.) related to the Practice. Employees must not create a link from a personal blog, website, or other social networking site to a Practice website that identifies the employee as speaking on behalf of the Practice.</li>
@@ -1481,7 +1585,7 @@
         </ul>
     </div>
 
-    <h6>Using Social Media at Work</h6>
+    <h5><a id="11-Usin">Using Social Media at Work</a></h5>
     <div class="q">Employees are prohibited from using social media in the workplace during working hours, unless it is work related as authorized by their Supervisor or Manager and it is consistent with policies that cover equipment owned by the Practice.
     </div>
 
@@ -1493,9 +1597,9 @@
 
     <div id="grad1"><a id="Safe">12. Safety & Security</a></div>
     <h5><a id="12-Drug">Drug and Alcohol Policy</a></h5>
-    <div class="q">The Practice is committed to providing a safe, healthy, and productive work environment. Consistent with this commitment, it is the intent of the Practice to maintain a drug and alcohol-free workplace. Being under the influence of alcohol, illegal drugs (as classified under federal, state, or local laws), or other substances which may impair an employee’s ability to perform their job duties in the workplace during working hours may pose a serious health and safety risk to others, and will not be tolerated.</div><br>
+    <div class="q">The Practice is committed to providing a safe, healthy, and productive work environment. Consistent with this commitment, it is the intent of the Practice to maintain a drug and alcohol-free workplace. Being under the influence of alcohol, illegal drugs (as classified under federal, state, or local laws), or other substances which may impair an employee’s ability to perform their job duties in the workplace during working hours may pose a serious health and safety risk to others and will not be tolerated. All employees are subject to the random drug screening policy.</div>
 
-    <h6>Prohibited Conduct</h6>
+    <h5><a id="12-Proh">Prohibited Conduct</a></h5>
     <div class="q">The Practice expressly prohibits employees from engaging in the following activities when they are on duty or conducting Practice business or on Practice premises (whether or not they are working):
         <ul class="a">
             <li>The use, abuse, or being under the influence of alcohol, illegal drugs, or other impairing substances.</li>
@@ -1559,25 +1663,25 @@
         <div class="q">The Practice’s policy is to confirm dates of employment and job title only. With written authorization, the Practice will confirm compensation. Any and all requests for employment verification should be directed to the Director, People Operations.</div>
 
         <h5><a id="13-Resi">Resignation Policy</a></h5>
-        <div class="q">The Practice hopes that every employees employment is a mutually rewarding experience. However, the Practice acknowledges that varying circumstances may cause an employee to resign employment. The Practice will handle any resignation in a professional manner with minimal disruption to the workplace.</div><br>
+        <div class="q">The Practice hopes that every employees employment is a mutually rewarding experience. However, the Practice acknowledges that varying circumstances may cause an employee to resign employment. The Practice will handle any resignation in a professional manner with minimal disruption to the workplace.</div>
 
-        <h6>Notice of Resignation</h6>
+        <h5><a id="13-Noti">Notice of Resignation</a></h5>
         <div class="q">The Practice requests that an employee provide a minimum of two (2) weeks’ notice of resignation. If an employee is a Supervisor, Manager or member of Executive Leadership, the Practice requests a minimum of four (4) weeks’ notice. The Practice asks employees to provide a written resignation letter to their Supervisor or Manager with a copy to the Director, People Operations. If an employee provides less notice than requested, the Practice may deem the employee ineligible for rehire.<br><br> Once an employee submits their resignation, no PTO may be requested or approved during the employee’s final two (2) weeks (or four (4) weeks if a supervisor/manager/executive leadership) of employment. Exceptions to this policy may be granted in the sole discretion of the Chief Wellness Officer.<br><br> The Practice reserves the right to provide an employee with pay in lieu of notice in situations where job or business needs warrant.</div>
 
         <h5><a id="13-Retu">Return of Property</a></h5>
         <div class="q">All employees must return all Practice property at the time of separation, including items such as cellphones, keys, laptops, credit cards, and identification cards. In some circumstances, the Practice may pursue criminal charges for failure to return Practice property.</div><br><br><br>
 
         <div id="grad1"><a id="Ackn">14. Acknowledgment of Receipt and Review</a></div><h5></h5>
-        <div class="q">By signing below, I acknowledge that I have received a copy of the Baal Perazim Wellness & Health, PC (Inc) Employee Handbook (hereafter referred to as “handbook”) and that I have read it, understand it, and agree to comply with all stated policies and procedures. I understand that the Practice has the right to interpret, administer, change, modify, or delete the rules, regulations, procedures, and benefits contained in the handbook at any time with or without notice. I acknowledge that no statement or representation made by a supervisor, manager, or any other employee, whether oral or written, can supplement or modify the policies and procedures contained in this handbook. Changes can only be made if approved in writing by the Chief Wellness Officer of the Practice. I also understand that any delay or failure by the Practice to enforce any rule, regulation, or procedure contained in the handbook does not constitute a waiver on behalf of the Practice or affect the right of the Practice to enforce such rule, regulation, policy or procedure in the future.<br><br> I understand that neither this handbook nor any other communication by a management representative or other employee, whether oral or written, is intended in any way to create a contract of employment. I further understand that, unless I have a written employment agreement signed by an authorized Practice representative, I am employed “at-will” (to the extent permitted by law) and this handbook does not modify my “at-will” employment status.<br><br> If I am covered by a written employment agreement (signed by the Chief Wellness Officer) that conflicts with the terms of this handbook, I understand that the terms of the employment agreement will control the terms and conditions of my employment.<br><br> This handbook does not preclude or persuade any employee from engaging in legally protected activities under the National Labor Relations Act (NLRA).<br><br> This handbook supersedes any previous handbook or policy statements, whether written or oral, issued by the Practice.
-            <br><br><br><br>
+        <div class="q">By signing below, I acknowledge that I have received a copy of the Baal Perazim Wellness & Health, PC (Inc) Employee Handbook (hereafter referred to as “handbook”) and that I have read it, understand it, and agree to comply with all stated policies and procedures. I understand that the Practice has the right to interpret, administer, change, modify, or delete the rules, regulations, procedures, and benefits contained in the handbook at any time with or without notice. I acknowledge that no statement or representation made by a supervisor, manager, or any other employee, whether oral or written, can supplement or modify the policies and procedures contained in this handbook. Changes can only be made if approved in writing by the Chief Wellness Officer of the Practice. I also understand that any delay or failure by the Practice to enforce any rule, regulation, or procedure contained in the handbook does not constitute a waiver on behalf of the Practice or affect the right of the Practice to enforce such rule, regulation, policy or procedure in the future.<br><br> I understand that neither this handbook nor any other communication by a management representative or other employee, whether oral or written, is intended in any way to create a contract of employment. I further understand that, unless I have a written employment agreement signed by an authorized Practice representative, I am employed “at-will” (to the extent permitted by law) and this handbook does not modify my “at-will” employment status.<br><br> If I am covered by a written employment agreement (signed by the Chief Wellness Officer) that conflicts with the terms of this handbook, I understand that the terms of the employment agreement will control the terms and conditions of my employment.<br><br> This handbook does not preclude or persuade any employee from engaging in legally protected activities under the National Labor Relations Act (NLRA).<br><br> This handbook supersedes any previous handbook or policy statements, whether written or oral, issued by the Practice.<br><br>If I have any questions about the content or interpretation of this handbook, I will contact the People Operations Department.
+            <br><br><br>
 
             <div class="date">Date</div><br><br><br><br>
             <div class="print_name">Print Name</div><br><br><br><br>
-            <div class="signature">Signature</div><br><br><br><br> If I have any questions about the content or interpretation of this handbook, I will contact the People Operations Department.
+            <div class="signature">Signature</div><br><br><br> 
         </div><br><br>
 
         <div class="footer"><div class="vertical-center">
-        <div class="disclaim">NOTE: This page will be signed by the employee and placed in the employee’s personnel file. A copy may be provided to the employee if requested.</div>
+        <div class="disclaim">NOTE: This page will be signed by the employee and placed in the employee’s personnel file.<br> A copy may be provided to the employee if requested.</div>
 
          </div></div>
         <script>
